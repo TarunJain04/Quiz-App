@@ -1,0 +1,1419 @@
+[
+  {
+    "question": "What is the output of the following Python code?\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "question": "What is the output of the following Python code?\nprint(bool(\"\"), bool(\" \"), bool(0), bool([]))",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "False True False False"
+  },
+  {
+    "question": "What is the output of the following Python code?\nx = {'a': 1, 'b': 2}\ny = x.copy()\ny['a'] = 99\nprint(x['a'])",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "1"
+  },
+  {
+    "question": "What is the output of the following Python code?\nprint(list(range(5, 0, -2)))",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "[5, 3, 1]"
+  },
+  {
+    "question": "What is the output of the following Python code?\na = [1, 2, 3]\nb = a[:]\nb.append(4)\nprint(len(a), len(b))",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "3 4"
+  },
+  {
+    "question": "What is the output of the following Python code?\nfor i in range(3):\n    pass\nprint(i)",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "2"
+  },
+  {
+    "question": "What is the output of the following Python code?\nprint(2 ** 3 ** 2)",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "512",
+    "hint": "Think about the associativity direction of the ** operator in Python."
+  },
+  {
+    "question": "What is the output of the following Python code?\nd = {i: i**2 for i in range(4)}\nprint(d)",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "{0: 0, 1: 1, 2: 4, 3: 9}"
+  },
+  {
+    "question": "What is the output of the following Python code?\ntry:\n    x = int('abc')\nexcept ValueError:\n    x = -1\nfinally:\n    x += 1\nprint(x)",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "0"
+  },
+  {
+    "question": "Which of the following are true about Python's GIL (Global Interpreter Lock)?",
+    "category": "Python",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "The GIL prevents multiple native threads from executing Python bytecode simultaneously",
+      "The GIL makes CPU-bound multithreaded Python programs slower than single-threaded",
+      "The GIL is present in all Python implementations including Jython",
+      "Using multiprocessing instead of threading can bypass the GIL"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "Jython runs on JVM and does not have a GIL -- the GIL is a CPython implementation detail, not a language spec requirement."
+  },
+  {
+    "question": "Which of the following correctly describe Python generators?",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "A generator function uses 'yield' instead of 'return'",
+      "Generators evaluate all values eagerly at creation",
+      "Generators maintain their state between calls",
+      "A generator can only be iterated once"
+    ],
+    "answers": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Match each Python built-in to what it returns.",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "len([1,2,3])",
+      "type(3.0)",
+      "int('42')",
+      "bool([])"
+    ],
+    "right": [
+      "False",
+      "42",
+      "3",
+      "<class 'float'>"
+    ],
+    "matches": [
+      3,
+      4,
+      2,
+      1
+    ]
+  },
+  {
+    "question": "The ___ keyword in Python is used inside a function to modify a variable defined in the enclosing (non-global) scope.",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "fill",
+    "answer": "nonlocal"
+  },
+  {
+    "question": "Arrange these Python concepts from lowest to highest memory usage for storing 1 million integers.",
+    "category": "Python",
+    "difficulty": "hard",
+    "type": "ordering",
+    "options": [
+      "Python list of ints",
+      "Python generator expression",
+      "numpy array of int32",
+      "Python tuple of ints"
+    ],
+    "correctOrder": [
+      2,
+      3,
+      4,
+      1
+    ],
+    "hint": "A generator produces values lazily -- it holds almost no memory. numpy stores raw C integers. Lists and tuples store Python object references."
+  },
+  {
+    "question": "What is the output of the following JavaScript code?\nconsole.log(0.1 + 0.2 === 0.3);",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "false",
+    "hint": "Think about how decimal fractions are represented in binary floating point."
+  },
+  {
+    "question": "What is the output of the following JavaScript code?\nlet x = 1;\nfunction f() {\n  console.log(x);\n  let x = 2;\n}\nf();",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "ReferenceError",
+    "hint": "Think about what 'let' does to the variable's visibility before its declaration line within the same block."
+  },
+  {
+    "question": "Which of the following are true about JavaScript's event loop?",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "The call stack runs synchronous code",
+      "Microtasks (Promises) are processed before the next macrotask",
+      "setTimeout with 0ms delay runs before all synchronous code",
+      "fetch() callbacks go into the microtask queue"
+    ],
+    "answers": [
+      1,
+      2
+    ],
+    "hint": "setTimeout is a macrotask. fetch() uses Promises which are microtasks, but the callback itself runs after the Promise resolves -- which is a microtask, not the macrotask."
+  },
+  {
+    "question": "Which of the following are falsy values in JavaScript?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "0",
+      "\"\"",
+      "[]",
+      "null",
+      "undefined",
+      "NaN"
+    ],
+    "answers": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "question": "Match each JavaScript concept to its description.",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "Closure",
+      "Hoisting",
+      "Prototype chain",
+      "Event bubbling"
+    ],
+    "right": [
+      "An event on a child element propagates up through parent elements",
+      "A function that retains access to its outer scope after the outer function has returned",
+      "Declarations are moved to the top of their scope before execution",
+      "Object property lookup traverses linked objects until found or null"
+    ],
+    "matches": [
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "question": "The ___ method in JavaScript returns a new array with all elements that pass a given test function.",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "type": "fill",
+    "answer": "filter"
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int x = 5;\n    printf(\"%d %d\\n\", x++, ++x);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "Undefined Behavior",
+    "hint": "Think about whether C defines the order in which function arguments are evaluated."
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int x = 10;\n    int *p = &x;\n    int **pp = &p;\n    **pp = 20;\n    printf(\"%d\\n\", x);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "20"
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int i;\n    for (i = 0; i < 5; i++);\n    printf(\"%d\\n\", i);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "5"
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\n#define SQ(x) x*x\nint main() {\n    printf(\"%d\\n\", SQ(2+3));\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "11",
+    "hint": "Think about what a macro does versus a function -- the substitution is purely textual before compilation."
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int a = 5, b = 10;\n    a = a ^ b;\n    b = a ^ b;\n    a = a ^ b;\n    printf(\"%d %d\\n\", a, b);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "10 5"
+  },
+  {
+    "question": "Which of the following are true about pointers in C?",
+    "category": "C",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "A pointer stores the memory address of another variable",
+      "void* can be assigned from any pointer type without explicit cast in C",
+      "Pointer arithmetic is valid on void* pointers",
+      "NULL is guaranteed to be zero in memory"
+    ],
+    "answers": [
+      1,
+      2
+    ],
+    "hint": "void* arithmetic is not defined in standard C because the size of what it points to is unknown. NULL being bitwise zero is a common implementation detail but not a C language guarantee."
+  },
+  {
+    "question": "Match each C storage class to its lifetime and scope.",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "mtf",
+    "left": [
+      "auto",
+      "static (local)",
+      "extern",
+      "register"
+    ],
+    "right": [
+      "Suggests CPU register storage, block scope, automatic lifetime",
+      "Block scope, automatic lifetime (default for local vars)",
+      "Block scope but persists for entire program lifetime",
+      "File/global scope, defined elsewhere in another translation unit"
+    ],
+    "matches": [
+      2,
+      3,
+      4,
+      1
+    ],
+    "hint": "The key distinction is lifetime vs scope. A static local variable has block scope but does not die when the block exits."
+  },
+  {
+    "question": "In C, the ___ operator returns the size in bytes of a type or variable at compile time.",
+    "category": "C",
+    "difficulty": "easy",
+    "type": "fill",
+    "answer": "sizeof"
+  },
+  {
+    "question": "Which of the following are true about C's memory layout?",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "Global variables are stored in the data segment",
+      "Local variables are stored on the stack",
+      "malloc() allocates memory on the heap",
+      "The stack grows upward in all architectures"
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ],
+    "hint": "Stack growth direction (upward vs downward) is architecture-dependent. Most common architectures (x86) have the stack grow downward toward lower addresses."
+  },
+  {
+    "question": "Which of the following SQL queries will correctly return the second highest salary?",
+    "category": "SQL",
+    "difficulty": "hard",
+    "type": "mcq",
+    "options": [
+      "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees)",
+      "SELECT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1",
+      "SELECT TOP 1 salary FROM employees ORDER BY salary DESC",
+      "SELECT SECOND(salary) FROM employees"
+    ],
+    "answer": 1,
+    "hint": "Think about which approach works when there are duplicate salaries at the top -- LIMIT OFFSET can behave unexpectedly then."
+  },
+  {
+    "question": "Which of the following are true about SQL window functions?",
+    "category": "SQL",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "Window functions do not collapse rows like GROUP BY",
+      "ROW_NUMBER() assigns a unique rank even for ties",
+      "RANK() assigns the same rank to ties and skips the next rank",
+      "Window functions can be used in WHERE clauses"
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ],
+    "hint": "Window functions are computed after WHERE and GROUP BY -- they cannot be filtered in WHERE because WHERE runs before window functions are calculated."
+  },
+  {
+    "question": "Match each SQL window function to its behavior on tied values.",
+    "category": "SQL",
+    "difficulty": "hard",
+    "type": "mtf",
+    "left": [
+      "ROW_NUMBER()",
+      "RANK()",
+      "DENSE_RANK()",
+      "NTILE(4)"
+    ],
+    "right": [
+      "Divides rows into 4 equal buckets, no gaps",
+      "Unique sequential integer, arbitrary tiebreak",
+      "Same rank for ties, next rank skipped (gaps)",
+      "Same rank for ties, next rank is consecutive (no gaps)"
+    ],
+    "matches": [
+      2,
+      3,
+      4,
+      1
+    ],
+    "hint": "Focus on what each function does differently when two rows have the same value -- does it assign the same number, skip a number afterward, or ignore ties entirely?"
+  },
+  {
+    "question": "The ___ SQL clause allows you to define a named result set that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement.",
+    "category": "SQL",
+    "difficulty": "medium",
+    "type": "fill",
+    "answer": "WITH"
+  },
+  {
+    "question": "What is the output of the following Bash script?\n#!/bin/bash\nx=5\ny=3\necho $((x > y ? x : y))",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "5"
+  },
+  {
+    "question": "What is the output of the following Bash script?\n#!/bin/bash\nfor i in {1..5}; do\n  if [ $i -eq 3 ]; then\n    continue\n  fi\n  echo -n \"$i \"\ndone",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "1 2 4 5 "
+  },
+  {
+    "question": "What is the output of the following Bash script?\n#!/bin/bash\nstr=\"hello world\"\necho ${#str}",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "11"
+  },
+  {
+    "question": "What is the output of the following Bash command?\necho {a,b,c}{1,2}",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "a1 a2 b1 b2 c1 c2"
+  },
+  {
+    "question": "What is the output of the following Bash script?\n#!/bin/bash\nx=10\nif [ $x -gt 5 ] && [ $x -lt 20 ]; then\n  echo \"in range\"\nelse\n  echo \"out of range\"\nfi",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "in range"
+  },
+  {
+    "question": "What does the following Bash command do?\nfind . -name '*.log' -mtime +7 -delete",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "Deletes all .log files regardless of age",
+      "Deletes .log files modified more than 7 days ago",
+      "Deletes .log files modified in the last 7 days",
+      "Prints .log files older than 7 days without deleting"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In Bash, what is the difference between $@ and $*?",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "They are always identical",
+      "\"$@\" expands each argument as a separate quoted word; \"$*\" expands all as one word",
+      "\"$*\" expands each argument as a separate word; \"$@\" expands all as one",
+      "$@ is the count of arguments; $* is all arguments"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following Bash commands correctly redirect both stdout and stderr to a file?",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "command > file 2>&1",
+      "command &> file",
+      "command 2> file 1>&2",
+      "command > file"
+    ],
+    "answers": [
+      1,
+      2
+    ],
+    "hint": "Order matters in redirection. 2>&1 after > file means stderr goes where stdout currently points (the file). 2>&1 before > file would redirect stderr to the original stdout."
+  },
+  {
+    "question": "Match each Bash special variable to what it holds.",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "$?",
+      "$0",
+      "$#",
+      "$$"
+    ],
+    "right": [
+      "Number of arguments passed to the script",
+      "Exit status of the last command",
+      "PID of the current shell process",
+      "Name/path of the script itself"
+    ],
+    "matches": [
+      2,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "The ___ Bash command reads a line from stdin and splits it into variables.",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "fill",
+    "answer": "read"
+  },
+  {
+    "question": "What does the following CSS rule do?\n.box {\n  box-sizing: border-box;\n}",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "Adds a box shadow to the element",
+      "Makes the element's width and height include padding and border",
+      "Makes the element's width and height exclude padding and border",
+      "Removes the element's margin"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output (layout behavior) of the following CSS?\n.container {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\nThe container has 3 children of equal size.",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "Children stack vertically with equal space between",
+      "Children align horizontally with the first at the left, last at the right, and one in the middle, all vertically centered",
+      "Children align horizontally with equal space around each child",
+      "Children align horizontally with equal gaps between but not at the edges"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property controls the stacking order of positioned elements?",
+    "category": "CSS",
+    "difficulty": "easy",
+    "type": "fill",
+    "answer": "z-index"
+  },
+  {
+    "question": "What is the specificity order (highest to lowest) in CSS?",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "ordering",
+    "options": [
+      "Class selector (.class)",
+      "Inline style (style=)",
+      "Element/tag selector (div)",
+      "ID selector (#id)"
+    ],
+    "correctOrder": [
+      2,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Which of the following CSS selectors correctly targets only direct children of a div?",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "div p",
+      "div > p",
+      "div + p",
+      "div ~ p"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following are true about CSS Flexbox vs Grid?",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "Flexbox is one-dimensional (row OR column at a time)",
+      "Grid is two-dimensional (rows AND columns simultaneously)",
+      "Flexbox cannot center an element both horizontally and vertically",
+      "Grid requires the same number of items in every row"
+    ],
+    "answers": [
+      1,
+      2
+    ],
+    "hint": "Flexbox absolutely can center elements both ways using justify-content and align-items. Grid rows do not need to have the same number of items -- grid-auto-flow handles irregular placement."
+  },
+  {
+    "question": "Match each CSS position value to its behavior.",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed"
+    ],
+    "right": [
+      "Positioned relative to the nearest positioned ancestor, removed from normal flow",
+      "Default position, not affected by top/left/right/bottom",
+      "Positioned relative to itself, stays in normal flow",
+      "Positioned relative to the viewport, stays fixed on scroll"
+    ],
+    "matches": [
+      2,
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "question": "What does the following HTML render when clicked?\n<a href=\"#\">Click me</a>",
+    "category": "HTML",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "Navigates to the homepage",
+      "Navigates to a page called '#'",
+      "Stays on the current page, scrolls to the top",
+      "Does nothing"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which HTML elements are semantically self-closing (void elements)?",
+    "category": "HTML",
+    "difficulty": "easy",
+    "type": "msq",
+    "options": [
+      "<img>",
+      "<br>",
+      "<div>",
+      "<input>",
+      "<span>"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "What is the difference between the HTML attributes 'id' and 'class'?",
+    "category": "HTML",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "id must be unique on the page; class can be shared by many elements",
+      "class must be unique on the page; id can be shared",
+      "They are interchangeable",
+      "id is only for JavaScript; class is only for CSS"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does the 'defer' attribute do on a script tag?\n<script src='app.js' defer></script>",
+    "category": "HTML",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "Downloads and executes the script immediately, blocking HTML parsing",
+      "Downloads the script in parallel, executes it before DOMContentLoaded, after HTML is fully parsed",
+      "Downloads the script in parallel, executes it after the HTML is fully parsed",
+      "Prevents the script from executing at all"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following are true about semantic HTML?",
+    "category": "HTML",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "<article> represents a self-contained composition",
+      "<section> groups related content with a heading",
+      "<div> is a semantic element for layout divisions",
+      "<nav> is used to wrap navigation links"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "<div> is purely presentational with no semantic meaning. It tells browsers and screen readers nothing about the content it contains."
+  },
+  {
+    "question": "Match each HTML element to its semantic purpose.",
+    "category": "HTML",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "<header>",
+      "<footer>",
+      "<aside>",
+      "<main>"
+    ],
+    "right": [
+      "Dominant content of the document, unique per page",
+      "Introductory content or navigation at the top of a section",
+      "Tangentially related content (sidebars, callouts)",
+      "Closing content of a section or page"
+    ],
+    "matches": [
+      2,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "question": "What does the following HTML do?\n<input type='text' required pattern='[A-Za-z]{3,}'>",
+    "category": "HTML",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "Accepts any text at least 3 characters long",
+      "Accepts only letters, at least 3 characters, and cannot be empty",
+      "Accepts only uppercase letters",
+      "Validates input server-side only"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The ___ HTML attribute specifies which HTTP method the form uses when submitted.",
+    "category": "HTML",
+    "difficulty": "easy",
+    "type": "fill",
+    "answer": "method"
+  },
+  {
+    "question": "What is the output of the following Java code?\nimport java.util.*;\npublic class Test {\n  public static void main(String[] args) {\n    List<Integer> list = Arrays.asList(3, 1, 4, 1, 5);\n    Collections.sort(list);\n    System.out.println(list);\n  }\n}",
+    "category": "Java",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "[1, 1, 3, 4, 5]"
+  },
+  {
+    "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    for (int i = 0; i < 3; i++) {\n      for (int j = 0; j < 3; j++) {\n        if (j == 1) break;\n        System.out.print(i + \"\" + j + \" \");\n      }\n    }\n  }\n}",
+    "category": "Java",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "00 10 20 "
+  },
+  {
+    "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    try {\n      System.out.println(\"try\");\n      System.exit(0);\n    } finally {\n      System.out.println(\"finally\");\n    }\n  }\n}",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "try",
+    "hint": "Think about what System.exit() does to the JVM itself -- does finally still get a chance to run?"
+  },
+  {
+    "question": "What is the output of the following Java code?\npublic class Test {\n  static int i = 0;\n  static {\n    i = i++ + ++i;\n  }\n  public static void main(String[] args) {\n    System.out.println(i);\n  }\n}",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "2",
+    "hint": "Evaluate i++ and ++i in sequence -- track the value of i at each step before combining."
+  },
+  {
+    "question": "Which of the following correctly describe Java's Optional class?",
+    "category": "Java",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "Optional is used to represent a value that may or may not be present",
+      "Optional.get() throws NoSuchElementException if empty",
+      "Optional eliminates all NullPointerExceptions in code",
+      "Optional.orElse() returns the value if present, otherwise the given default"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "Optional does not eliminate NPEs by itself -- you can still call get() on an empty Optional which throws. It is a design tool, not a guarantee."
+  },
+  {
+    "question": "Match each Java Stream terminal operation to what it produces.",
+    "category": "Java",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "collect()",
+      "reduce()",
+      "forEach()",
+      "findFirst()"
+    ],
+    "right": [
+      "Optional<T> -- first element if present",
+      "void -- performs an action on each element",
+      "A single value by combining all elements",
+      "A collection or other result container"
+    ],
+    "matches": [
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "question": "Arrange the steps of Java class loading in the correct order.",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "ordering",
+    "options": [
+      "Initialization (static blocks and fields assigned)",
+      "Loading (bytecode read into memory by ClassLoader)",
+      "Preparation (static fields set to default values)",
+      "Verification (bytecode checked for correctness)"
+    ],
+    "correctOrder": [
+      2,
+      4,
+      3,
+      1
+    ],
+    "hint": "Think about what must happen before a class can safely run: it must be found, checked, have memory prepared, then actually initialized."
+  },
+  {
+    "question": "Which of the following are true about Java's ConcurrentHashMap vs synchronized HashMap?",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "ConcurrentHashMap locks only the affected bucket, not the whole map",
+      "synchronized HashMap locks the entire map for every operation",
+      "ConcurrentHashMap allows concurrent reads without locking",
+      "ConcurrentHashMap guarantees the iteration order"
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ],
+    "hint": "ConcurrentHashMap uses segment/bucket-level locking (striped locking), not a single global lock. It makes no ordering guarantee -- use ConcurrentSkipListMap for sorted concurrent access."
+  },
+  {
+    "question": "In Java, what is the output?\nvar list = new java.util.ArrayList<String>();\nlist.add(\"x\");\nlist.add(\"y\");\nlist.removeIf(s -> s.equals(\"x\"));\nSystem.out.println(list);",
+    "category": "Java",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "[y]"
+  },
+  {
+    "question": "Which of the following are true about the Java memory model's happens-before relationship?",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "A synchronized block's release happens-before the next thread's acquisition of the same lock",
+      "Writing to a volatile field happens-before reading that field",
+      "happens-before guarantees temporal ordering only, not visibility",
+      "Thread.start() happens-before any action in the started thread"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "happens-before DOES guarantee visibility -- if action A happens-before action B, then A's writes are visible to B. Temporal ordering without visibility would make it useless."
+  },
+  {
+    "question": "What is the output of the following Python code?\nclass A:\n    x = 0\na1 = A()\na2 = A()\na1.x = 5\nprint(A.x, a1.x, a2.x)",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "0 5 0"
+  },
+  {
+    "question": "What is the output of the following Python code?\nclass A:\n    def __init__(self):\n        self.x = 0\na1 = A()\na2 = A()\na1.x = 5\nprint(a1.x, a2.x)",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "5 0"
+  },
+  {
+    "question": "What is the output of the following Python code?\nx = [0] * 3\ny = [x] * 3\ny[0][0] = 99\nprint(y)",
+    "category": "Python",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "[[99, 0, 0], [99, 0, 0], [99, 0, 0]]",
+    "hint": "Think about whether [x] * 3 creates three independent lists or three references to the same list object."
+  },
+  {
+    "question": "Which of the following Python expressions evaluate to True?",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "1 == True",
+      "0 == False",
+      "None == False",
+      "[] == False"
+    ],
+    "answers": [
+      1,
+      2
+    ],
+    "hint": "In Python, True and False are literally 1 and 0 (int subclass). But None and [] are their own objects -- they are falsy but not equal to False."
+  },
+  {
+    "question": "Match each Python data structure to its correct characteristic.",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "list",
+      "tuple",
+      "set",
+      "frozenset"
+    ],
+    "right": [
+      "Immutable, unordered, no duplicates -- hashable",
+      "Ordered, mutable, allows duplicates",
+      "Mutable, unordered, no duplicates",
+      "Ordered, immutable, allows duplicates"
+    ],
+    "matches": [
+      2,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "question": "Arrange these Python scope levels in order from innermost to outermost (LEGB rule).",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "ordering",
+    "options": [
+      "Enclosing function scope",
+      "Built-in scope",
+      "Global (module) scope",
+      "Local scope"
+    ],
+    "correctOrder": [
+      4,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "question": "What does the following JavaScript code output?\n[1, 2, 3].map(n => n * 2).filter(n => n > 3).reduce((a, b) => a + b, 0);",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "10"
+  },
+  {
+    "question": "What is the output of the following JavaScript code?\nconst obj = { a: 1 };\nconst { a, b = 99 } = obj;\nconsole.log(a, b);",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "1 99"
+  },
+  {
+    "question": "What is the output of the following JavaScript code?\nasync function f() {\n  return 1;\n}\nconsole.log(f());",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "Promise { 1 }",
+    "hint": "An async function always returns a Promise, even if you return a plain value inside it."
+  },
+  {
+    "question": "Which of the following are true about JavaScript's 'this' keyword?",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "In a regular function, 'this' depends on how the function is called",
+      "Arrow functions inherit 'this' from their lexical scope",
+      "In strict mode, 'this' inside a plain function call is undefined",
+      "'this' always refers to the global object"
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ],
+    "hint": "In non-strict mode, 'this' inside a plain function call defaults to the global object. Arrow functions never have their own 'this' -- they capture it from where they are defined."
+  },
+  {
+    "question": "Arrange the CSS box model layers from innermost to outermost.",
+    "category": "CSS",
+    "difficulty": "easy",
+    "type": "ordering",
+    "options": [
+      "Border",
+      "Margin",
+      "Content",
+      "Padding"
+    ],
+    "correctOrder": [
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Which of the following are true about CSS specificity?",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "!important overrides all specificity rules",
+      "10 class selectors can override 1 ID selector",
+      "Inline styles have higher specificity than ID selectors",
+      "The universal selector (*) has zero specificity"
+    ],
+    "answers": [
+      1,
+      3,
+      4
+    ],
+    "hint": "Specificity is not decimal -- 10 class selectors (0,10,0) do NOT override 1 ID selector (1,0,0). Specificity columns never carry over."
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int a = 5;\n    int b = a > 3 ? a > 4 ? 10 : 20 : 30;\n    printf(\"%d\\n\", b);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "10"
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};\n    printf(\"%d\\n\", *(*(arr + 1) + 2));\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "6",
+    "hint": "arr + 1 moves to the second row. Dereferencing gives a pointer to the start of that row. Adding 2 moves to the third element of that row."
+  },
+  {
+    "question": "Which of the following are valid C undefined behaviors?",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "Accessing an array out of bounds",
+      "Signed integer overflow",
+      "Dereferencing a NULL pointer",
+      "Using printf with a mismatched format specifier"
+    ],
+    "answers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "hint": "All four are undefined behavior in C. The compiler is allowed to assume none of these happen -- and may optimize code in ways that cause surprising results when they do."
+  },
+  {
+    "question": "Arrange the steps of a SQL SELECT query's logical execution order.",
+    "category": "SQL",
+    "difficulty": "hard",
+    "type": "ordering",
+    "options": [
+      "HAVING",
+      "GROUP BY",
+      "SELECT",
+      "WHERE",
+      "FROM / JOIN",
+      "ORDER BY",
+      "LIMIT"
+    ],
+    "correctOrder": [
+      5,
+      4,
+      2,
+      1,
+      3,
+      6,
+      7
+    ],
+    "hint": "You cannot filter on a GROUP BY column in WHERE -- WHERE runs before grouping. HAVING runs after grouping. SELECT runs after filtering -- you cannot use a SELECT alias in WHERE."
+  },
+  {
+    "question": "Which of the following Bash constructs correctly loops over lines in a file?",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "while IFS= read -r line; do echo \"$line\"; done < file.txt",
+      "for line in $(cat file.txt); do echo \"$line\"; done",
+      "cat file.txt | while read line; do echo \"$line\"; done",
+      "foreach line in file.txt; do echo \"$line\"; done"
+    ],
+    "answers": [
+      1,
+      3
+    ],
+    "hint": "Option 2 breaks on whitespace (word splitting by shell) not on newlines. Option 4 is not valid Bash syntax (that is csh/tcsh syntax)."
+  },
+  {
+    "question": "What is the output of the following Bash script?\n#!/bin/bash\nfunction add() {\n  echo $(($1 + $2))\n}\nresult=$(add 3 7)\necho \"Result: $result\"",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "Result: 10"
+  },
+  {
+    "question": "In Bash, what does 2>/dev/null do?",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "Redirects stdin to discard",
+      "Redirects stderr to discard",
+      "Redirects stdout to discard",
+      "Closes file descriptor 2"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Match each Bash file test operator to what it checks.",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "-f",
+      "-d",
+      "-r",
+      "-z"
+    ],
+    "right": [
+      "String is zero length",
+      "Path exists and is a regular file",
+      "Path exists and is a directory",
+      "File exists and is readable"
+    ],
+    "matches": [
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "question": "Which of the following Python decorators are built-in?",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "@staticmethod",
+      "@classmethod",
+      "@singleton",
+      "@property"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "@singleton is not a Python built-in -- it is a user-defined or third-party decorator. The three built-in method decorators are @staticmethod, @classmethod, and @property."
+  },
+  {
+    "question": "What is the output of the following Python code?\nfrom functools import reduce\nprint(reduce(lambda a, b: a * b, [1, 2, 3, 4]))",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "24"
+  },
+  {
+    "question": "Which of the following correctly describe Python's *args and **kwargs?",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "*args collects extra positional arguments as a tuple",
+      "**kwargs collects extra keyword arguments as a dict",
+      "*args and **kwargs must always be used together",
+      "**kwargs preserves insertion order in Python 3.7+"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "What does the following CSS media query do?\n@media (max-width: 768px) { body { font-size: 14px; } }",
+    "category": "CSS",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "Applies font-size 14px on screens wider than 768px",
+      "Applies font-size 14px on screens 768px wide or narrower",
+      "Applies font-size 14px only on exactly 768px screens",
+      "Prevents font-size from exceeding 768px"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Arrange these HTTP status code ranges from their category.",
+    "category": "HTML",
+    "difficulty": "easy",
+    "type": "ordering",
+    "options": [
+      "5xx -- Server errors",
+      "1xx -- Informational",
+      "4xx -- Client errors",
+      "3xx -- Redirection",
+      "2xx -- Success"
+    ],
+    "correctOrder": [
+      2,
+      5,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "question": "Which of the following SQL transactions phenomena match their definitions?",
+    "category": "SQL",
+    "difficulty": "hard",
+    "type": "mtf",
+    "left": [
+      "Dirty Read",
+      "Non-Repeatable Read",
+      "Phantom Read",
+      "Lost Update"
+    ],
+    "right": [
+      "Two transactions update the same row; one overwrites the other's change",
+      "A transaction reads rows that did not exist when it started",
+      "A transaction reads uncommitted changes from another transaction",
+      "A row read twice within a transaction returns different values"
+    ],
+    "matches": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "hint": "Each phenomenon is caused by a different kind of interference between concurrent transactions -- think about whether uncommitted, committed, or new data is the source of the problem."
+  },
+  {
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int x = 1;\n    if (x = 0)\n        printf(\"true\\n\");\n    else\n        printf(\"false\\n\");\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "false"
+  },
+  {
+    "question": "In JavaScript, what is the difference between == and ===?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "== checks value and type; === checks value only",
+      "== checks value only with type coercion; === checks value and type without coercion",
+      "They are identical",
+      "=== only works for primitive types"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of the following Java code?\nimport java.util.stream.*;\npublic class Test {\n  public static void main(String[] args) {\n    int result = IntStream.rangeClosed(1, 5)\n      .filter(n -> n % 2 == 0)\n      .sum();\n    System.out.println(result);\n  }\n}",
+    "category": "Java",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "6"
+  },
+  {
+    "question": "What is the output of the following Python code?\nimport itertools\nprint(list(itertools.chain([1,2],[3,4],[5])))",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "[1, 2, 3, 4, 5]"
+  },
+  {
+    "question": "Which of the following are true about SQL indexes?",
+    "category": "SQL",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "Indexes speed up SELECT queries",
+      "Indexes slow down INSERT, UPDATE, and DELETE operations",
+      "A table can have only one index",
+      "A composite index on (a, b) can be used for queries filtering only on column a"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "A table can have many indexes. A composite index (a, b) follows the leftmost prefix rule -- queries on just 'a' can use it, but queries on just 'b' usually cannot."
+  },
+  {
+    "question": "Which of the following are true about HTML forms?",
+    "category": "HTML",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "GET forms append data to the URL as query parameters",
+      "POST forms send data in the request body",
+      "File uploads require enctype='multipart/form-data'",
+      "GET and POST forms both support file uploads by default"
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Arrange these CSS units from most to least context-dependent (i.e., most relative to least relative).",
+    "category": "CSS",
+    "difficulty": "hard",
+    "type": "ordering",
+    "options": [
+      "px (pixel)",
+      "% (percentage)",
+      "em (relative to element's own font-size)",
+      "rem (relative to root font-size)"
+    ],
+    "correctOrder": [
+      2,
+      3,
+      4,
+      1
+    ],
+    "hint": "% depends on the parent element's size -- changes cascade through the whole tree. em depends on the current element's font-size which can be inherited. rem depends only on the root. px is absolute."
+  },
+  {
+    "question": "What is the output of the following Bash script?\n#!/bin/bash\ncount=0\nwhile [ $count -lt 5 ]; do\n  count=$((count + 1))\ndone\necho $count",
+    "category": "Bash",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "5"
+  },
+  {
+    "question": "What does the following Bash pipeline do?\ncat file.txt | sort | uniq -c | sort -rn | head -5",
+    "category": "Bash",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "Prints the 5 shortest lines in the file",
+      "Prints the 5 most frequently occurring lines with their counts, most frequent first",
+      "Prints the 5 alphabetically first unique lines",
+      "Prints the last 5 lines of the file"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of the following Java code?\npublic class Test {\n  interface Greeter {\n    String greet(String name);\n  }\n  public static void main(String[] args) {\n    Greeter g = name -> \"Hello, \" + name + \"!\";\n    System.out.println(g.greet(\"World\"));\n  }\n}",
+    "category": "Java",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "Hello, World!"
+  },
+  {
+    "question": "Which of the following are true about Java records (Java 16+)?",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "msq",
+    "options": [
+      "Records are implicitly final",
+      "Records automatically generate equals(), hashCode(), and toString()",
+      "Records can extend other classes",
+      "Records can implement interfaces"
+    ],
+    "answers": [
+      1,
+      2,
+      4
+    ],
+    "hint": "Records implicitly extend java.lang.Record -- since Java only allows single inheritance, they cannot extend any other class. Implementing interfaces is fully allowed."
+  },
+  {
+    "question": "What is the output of the following Python code?\nprint(list(map(lambda x: x**2, filter(lambda x: x%2==0, range(1,8)))))",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "[4, 16, 36]"
+  },
+  {
+    "question": "In CSS, what is the difference between visibility: hidden and display: none?",
+    "category": "CSS",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "They are identical in behavior",
+      "visibility: hidden hides the element but it still occupies space; display: none removes it from the layout entirely",
+      "display: none hides but keeps space; visibility: hidden removes from layout",
+      "visibility: hidden only works on inline elements"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following describe how JavaScript handles variable hoisting?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "var declarations are hoisted and initialized to undefined",
+      "let and const declarations are hoisted but not initialized (temporal dead zone)",
+      "Function declarations are fully hoisted (both declaration and body)",
+      "Function expressions assigned to var are fully hoisted"
+    ],
+    "answers": [
+      1,
+      2,
+      3
+    ],
+    "hint": "A function expression like 'var f = function(){}' hoists 'f' as undefined (var hoisting) but not the function body. Only function declarations (function f(){}) are fully hoisted."
+  }
+]

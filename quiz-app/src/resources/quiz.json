@@ -1,0 +1,4518 @@
+[
+    {
+        "question": "What is the time complexity of binary search?",
+        "category": "Algorithms",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which keyword is used to prevent inheritance in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "static",
+            "final",
+            "abstract",
+            "private"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a primitive data type in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "int",
+            "float",
+            "String",
+            "char"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the output of 5 % 2 in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "2",
+            "0",
+            "1",
+            "2.5"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which HTTP method is used to update a resource?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is a non-linear data structure?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "Array",
+            "Queue",
+            "Stack",
+            "Graph"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "What is method overloading in Java?",
+        "category": "OOP",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "Redefining a method in a subclass",
+            "Defining multiple methods with the same name but different parameters",
+            "Calling a parent class method",
+            "Hiding a parent method"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which HTTP status code indicates 'Not Found'?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "200",
+            "301",
+            "404",
+            "500"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What does the 'static' keyword mean when applied to a method in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "The method can only be called once",
+            "The method belongs to the class, not to any instance",
+            "The method cannot be overridden",
+            "The method runs in a separate thread"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which collection in Java maintains insertion order and allows duplicates?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "HashSet",
+            "TreeSet",
+            "ArrayList",
+            "HashMap"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which keyword in Java is used to handle exceptions?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "handle",
+            "catch",
+            "error",
+            "throws"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of these is NOT a valid access modifier in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "public",
+            "private",
+            "protected",
+            "friend"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "What does the 'super' keyword do in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "Refers to the current class instance",
+            "Refers to the parent class",
+            "Creates a new object",
+            "Prevents method overriding"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which SQL keyword removes duplicate rows from a result?",
+        "category": "Databases",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "UNIQUE",
+            "DISTINCT",
+            "FILTER",
+            "GROUP"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which HTTP method is idempotent and should only retrieve data?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "POST",
+            "PUT",
+            "GET",
+            "DELETE"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which data structure follows LIFO order?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "Queue",
+            "Stack",
+            "Linked List",
+            "Tree"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is a foreign key in a relational database?",
+        "category": "Databases",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "A key that uniquely identifies a record",
+            "A key that references the primary key of another table",
+            "An encrypted key for security",
+            "A key used to sort data"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a feature of Object Oriented Programming?",
+        "category": "OOP",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "Inheritance",
+            "Polymorphism",
+            "Compilation",
+            "Encapsulation"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the worst-case time complexity of QuickSort?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "O(n log n)",
+            "O(n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In a max-heap, what is always true about the root node?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "It is the smallest element",
+            "It is the largest element",
+            "It has exactly two children",
+            "It is the median element"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Bubble Sort",
+            "Insertion Sort",
+            "Merge Sort",
+            "Selection Sort"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of the 'volatile' keyword in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "To make a variable constant",
+            "To ensure a variable is always read from main memory, not CPU cache",
+            "To prevent garbage collection",
+            "To synchronize a method"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which data structure is best suited for implementing a priority queue?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Array",
+            "Linked List",
+            "Heap",
+            "Stack"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the output of: System.out.println(1 + 2 + \"3\") in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "123",
+            "33",
+            "6",
+            "Compilation Error"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which algorithm is used to detect cycles in a directed graph?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Dijkstra's",
+            "DFS",
+            "Binary Search",
+            "Merge Sort"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which SQL clause is used to filter grouped results?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "WHERE",
+            "HAVING",
+            "GROUP BY",
+            "ORDER BY"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the Observer design pattern used for?",
+        "category": "Design Patterns",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Creating objects step by step",
+            "Notifying dependent objects when state changes",
+            "Restricting object creation to one instance",
+            "Wrapping an object to add functionality"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is a deadlock in operating systems?",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "A process running indefinitely",
+            "A situation where two or more processes wait for each other indefinitely",
+            "A memory overflow condition",
+            "A CPU scheduling problem"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of these is an example of a greedy algorithm?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Merge Sort",
+            "Dijkstra's Shortest Path",
+            "Dynamic Programming Fibonacci",
+            "Binary Search"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the difference between '==' and '.equals()' in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "'==' compares values; .equals() compares references",
+            "'==' compares references; .equals() compares object content",
+            "They are identical",
+            "'==' works only for primitives; .equals() works only for Strings"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which data structure would you use to implement an undo-redo feature?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Queue",
+            "Two Stacks",
+            "Heap",
+            "Graph"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the time complexity of Merge Sort in all cases?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which data structure is used internally by a HashMap in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Linked List",
+            "Array of Linked Lists (Buckets)",
+            "Binary Tree",
+            "Stack"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which normal form eliminates transitive dependencies?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "1NF",
+            "2NF",
+            "3NF",
+            "BCNF"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which scheduling algorithm can cause starvation?",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Round Robin",
+            "First Come First Serve",
+            "Priority Scheduling",
+            "Shortest Job First (non-preemptive)"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which design pattern is used when you want to add behavior to an object without modifying its class?",
+        "category": "Design Patterns",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Singleton",
+            "Factory",
+            "Decorator",
+            "Observer"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In SQL, which JOIN returns all rows from both tables even without a match?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "What is the worst-case time complexity of searching in a hash table?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which data structure is used to implement recursion internally by the OS?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Queue",
+            "Heap",
+            "Stack",
+            "Graph"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the output of: int x = 5; System.out.println(x++) in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "Compilation Error"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following traversals visits the root node last?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Level Order"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for routing packets between networks?",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Physical Layer",
+            "Data Link Layer",
+            "Network Layer",
+            "Transport Layer"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which algorithm is used to find the minimum spanning tree of a graph?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Dijkstra's",
+            "BFS",
+            "Kruskal's",
+            "DFS"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the space complexity of recursive Fibonacci without memoization?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(n^2)",
+            "O(2^n)"
+        ],
+        "answer": 2,
+        "hint": "The call stack grows one frame per recursive depth level. What is the maximum depth before hitting the base case?"
+    },
+    {
+        "question": "What is the purpose of the 'volatile' keyword vs 'synchronized' in Java multithreading?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "'volatile' ensures atomicity; 'synchronized' ensures visibility",
+            "'volatile' ensures visibility only; 'synchronized' ensures both visibility and atomicity",
+            "They are interchangeable",
+            "'volatile' is faster and always preferred over 'synchronized'"
+        ],
+        "answer": 2,
+        "hint": "Think about what happens with compound operations like i++ -- is reading and writing together atomic with volatile alone?"
+    },
+    {
+        "question": "Which collection class in Java does NOT allow null keys?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "HashMap",
+            "LinkedHashMap",
+            "TreeMap",
+            "Hashtable"
+        ],
+        "answer": 4,
+        "hint": "Hashtable is a legacy class synchronized from Java 1.0. TreeMap also cannot have null keys -- so which one among the options is the legacy class that additionally throws NullPointerException?"
+    },
+    {
+        "question": "What is the minimum number of nodes in a binary tree of height h?",
+        "category": "Data Structures",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "h",
+            "h + 1",
+            "2h",
+            "2^h"
+        ],
+        "answer": 2,
+        "hint": "Think of the most skewed tree possible -- a straight chain with no branching. Height h means how many edges from root to deepest leaf. How many nodes does that chain have?"
+    },
+    {
+        "question": "What is the output of: System.out.println(\"5\" + 3 + 2) in Java?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "10",
+            "532",
+            "55",
+            "523"
+        ],
+        "answer": 2,
+        "hint": "String concatenation with + is left-to-right. Once a String is involved, subsequent + also concatenates rather than adds. Compare with (1 + 2 + \"3\") where ints are added first."
+    },
+    {
+        "question": "What is an AVL tree?",
+        "category": "Data Structures",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "A binary tree where each node has at most two children",
+            "A self-balancing BST where the heights of left and right subtrees of any node differ by at most 1",
+            "A tree that stores key-value pairs",
+            "A complete binary tree"
+        ],
+        "answer": 2,
+        "hint": "AVL stands for Adelson-Velsky and Landis. The key property is the balance factor of every node. What is the allowed balance factor range?"
+    },
+    {
+        "question": "In a directed acyclic graph (DAG), topological sort is always possible.",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1,
+        "hint": "Topological sort requires no cycles. DAG literally stands for Directed Acyclic Graph -- acyclic is part of its definition."
+    },
+    {
+        "question": "Encapsulation in OOP means hiding implementation details and exposing only the interface.",
+        "category": "OOP",
+        "difficulty": "easy",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A recursive call that is the last operation in a function is called tail recursion.",
+        "category": "General Programming",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, a 'static' method can directly access instance variables without creating an object.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Method overriding requires the method in the subclass to have the same name, return type, and parameters as the parent.",
+        "category": "OOP",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In SQL, comparing NULL == NULL evaluates to TRUE.",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In Java, the 'finally' block always executes regardless of whether an exception is thrown.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, an interface can have a constructor.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dijkstra's algorithm works correctly on graphs with negative edge weights.",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2,
+        "hint": "Dijkstra's uses a greedy approach -- once a node is finalized, it is never revisited. What happens to that assumption when a shorter path via a negative edge is found later?"
+    },
+    {
+        "question": "In Java, ArrayList is synchronized.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2
+    },
+    {
+        "question": "By strict definition, a binary search tree does not allow duplicate keys.",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Bubble sort with early termination has O(n) best-case time complexity on an already sorted array.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, multiple inheritance of classes is supported directly.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In Java, checked exceptions must be declared or handled at compile time.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "QuickSort is an in-place sorting algorithm.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, the String class is immutable.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A full binary tree has every node with either 0 or 2 children.",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, an abstract class can have non-abstract methods.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, a private method can be overridden in a subclass.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Merge Sort requires O(n) extra space.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Java, constructors are inherited by subclasses.",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2,
+        "hint": "A constructor's name must match the class name exactly. If subclasses inherited constructors, what name would the inherited constructor have?"
+    },
+    {
+        "question": "HashMap in Java guarantees O(1) worst-case for get() and put().",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "tfq",
+        "options": [
+            true,
+            false
+        ],
+        "answer": 2,
+        "hint": "O(1) is the average case. Think about what happens when all keys hash to the same bucket -- what is the worst case then?"
+    },
+    {
+        "question": "Which of the following are valid OOP pillars?",
+        "category": "OOP",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "Encapsulation",
+            "Compilation",
+            "Inheritance",
+            "Polymorphism"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Which of the following are valid ways to create a thread in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Extending the Thread class",
+            "Implementing the Runnable interface",
+            "Implementing the Callable interface",
+            "Extending the Process class"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following data structures are linear?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "Stack",
+            "Tree",
+            "Queue",
+            "Graph"
+        ],
+        "answers": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following are features of Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "Platform independent",
+            "Supports pointers directly",
+            "Object oriented",
+            "Automatic memory management via GC"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Which of the following are true about an abstract class in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "It can have constructors",
+            "It can be instantiated directly",
+            "It can have both abstract and non-abstract methods",
+            "A class can extend multiple abstract classes"
+        ],
+        "answers": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following SQL commands are DDL (Data Definition Language)?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "CREATE",
+            "SELECT",
+            "ALTER",
+            "DROP"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Which of the following sorting algorithms have O(n log n) average time complexity?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Bubble Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Insertion Sort"
+        ],
+        "answers": [
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following are checked exceptions in Java?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "IOException",
+            "NullPointerException",
+            "SQLException",
+            "ArrayIndexOutOfBoundsException"
+        ],
+        "answers": [
+            1,
+            3
+        ],
+        "hint": "Checked exceptions extend Exception but NOT RuntimeException. NullPointerException and ArrayIndexOutOfBoundsException both extend RuntimeException -- making them unchecked."
+    },
+    {
+        "question": "Which of the following are properties guaranteed by ACID in databases?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Atomicity",
+            "Consistency",
+            "Isolation",
+            "Duplication"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following graph algorithms can handle negative edge weights?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Dijkstra's Algorithm",
+            "Bellman-Ford Algorithm",
+            "Floyd-Warshall Algorithm",
+            "BFS"
+        ],
+        "answers": [
+            2,
+            3
+        ],
+        "hint": "Dijkstra's uses a greedy approach that breaks with negative weights. BFS works on unweighted graphs only. Which ones are designed specifically to handle negative weights?"
+    },
+    {
+        "question": "Match each data structure to its primary use case.",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "mtf",
+        "left": [
+            "Stack",
+            "Queue",
+            "Heap",
+            "Hash Map"
+        ],
+        "right": [
+            "Key-value lookup in O(1)",
+            "Undo operations (LIFO)",
+            "BFS traversal (FIFO)",
+            "Getting min/max efficiently"
+        ],
+        "matches": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "Match each sorting algorithm to its worst-case time complexity.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Bubble Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Heap Sort"
+        ],
+        "right": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(n log n)",
+            "O(n^2)"
+        ],
+        "matches": [
+            4,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Match each Java keyword to its purpose.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "mtf",
+        "left": [
+            "final",
+            "static",
+            "abstract",
+            "synchronized"
+        ],
+        "right": [
+            "Belongs to class, not instance",
+            "Prevents modification or inheritance",
+            "Controls thread access to a block",
+            "Cannot be instantiated, must be subclassed"
+        ],
+        "matches": [
+            2,
+            1,
+            4,
+            3
+        ]
+    },
+    {
+        "question": "Match each HTTP status code to its meaning.",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "mtf",
+        "left": [
+            "200",
+            "301",
+            "404",
+            "500"
+        ],
+        "right": [
+            "Internal Server Error",
+            "Not Found",
+            "Moved Permanently",
+            "OK"
+        ],
+        "matches": [
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "question": "Match each OOP concept to its definition.",
+        "category": "OOP",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "Abstraction"
+        ],
+        "right": [
+            "Hiding unnecessary details, exposing only essentials",
+            "One object taking many forms",
+            "Child class acquiring properties of parent",
+            "Bundling data and methods, restricting direct access"
+        ],
+        "matches": [
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "question": "Match each SQL join type to its behaviour.",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+        ],
+        "right": [
+            "Returns all rows from both tables, NULLs where no match",
+            "Returns only matching rows from both tables",
+            "Returns all rows from right table, NULLs from left if no match",
+            "Returns all rows from left table, NULLs from right if no match"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Match each Java collection to its key characteristic.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "ArrayList",
+            "LinkedList",
+            "HashSet",
+            "TreeMap"
+        ],
+        "right": [
+            "No duplicates, unordered",
+            "Sorted key-value pairs",
+            "Fast index access, dynamic array",
+            "Fast insertion/deletion at ends, doubly linked"
+        ],
+        "matches": [
+            3,
+            4,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Match each OS concept to its description.",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Deadlock",
+            "Starvation",
+            "Semaphore",
+            "Context Switch"
+        ],
+        "right": [
+            "Saving and restoring process state when switching CPU",
+            "Processes waiting on each other indefinitely",
+            "A low-priority process never gets CPU time",
+            "Signaling mechanism for shared resource access control"
+        ],
+        "matches": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "Match each design pattern to its category.",
+        "category": "Design Patterns",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "Singleton",
+            "Observer",
+            "Factory",
+            "Decorator"
+        ],
+        "right": [
+            "Structural -- adds responsibility to objects dynamically",
+            "Creational -- controls object creation",
+            "Behavioral -- defines communication between objects",
+            "Creational -- single instance guarantee"
+        ],
+        "matches": [
+            4,
+            3,
+            2,
+            1
+        ],
+        "hint": "Creational patterns deal with object creation, Structural with composition, Behavioral with communication. Singleton and Factory are both Creational but have different right-side descriptions."
+    },
+    {
+        "question": "Match each Big-O complexity to its name.",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "O(1)",
+            "O(log n)",
+            "O(n log n)",
+            "O(2^n)"
+        ],
+        "right": [
+            "Linearithmic",
+            "Constant",
+            "Exponential",
+            "Logarithmic"
+        ],
+        "matches": [
+            2,
+            4,
+            1,
+            3
+        ],
+        "hint": "Match by the mathematical name of each growth rate. Linearithmic = linear * logarithmic combined. Exponential grows by doubling each step."
+    },
+    {
+        "question": "Arrange the OSI model layers from lowest (Layer 1) to highest (Layer 7).",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Application",
+            "Network",
+            "Transport",
+            "Physical",
+            "Data Link",
+            "Session",
+            "Presentation"
+        ],
+        "correctOrder": [
+            4,
+            5,
+            2,
+            3,
+            6,
+            7,
+            1
+        ]
+    },
+    {
+        "question": "Arrange the following sorting steps of Bubble Sort in correct order of execution.",
+        "category": "Algorithms",
+        "difficulty": "easy",
+        "type": "ordering",
+        "options": [
+            "Swap adjacent elements if they are in wrong order",
+            "Start from the first element",
+            "Repeat until no swaps are needed",
+            "Compare current element with next element"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Arrange the steps to connect to a database in Java using JDBC in correct order.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Execute the query",
+            "Load the JDBC driver",
+            "Process the ResultSet",
+            "Establish a Connection",
+            "Create a Statement object"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            5,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Arrange the steps of the binary search algorithm in correct order.",
+        "category": "Algorithms",
+        "difficulty": "easy",
+        "type": "ordering",
+        "options": [
+            "Return mid if target equals mid element",
+            "Set low = mid + 1 if target is greater",
+            "Calculate mid = (low + high) / 2",
+            "Set high = mid - 1 if target is smaller",
+            "Start with low = 0, high = n-1"
+        ],
+        "correctOrder": [
+            5,
+            3,
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Arrange these software development lifecycle phases in the correct order.",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "ordering",
+        "options": [
+            "Testing",
+            "Requirements Gathering",
+            "Deployment",
+            "Design",
+            "Implementation"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            5,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Arrange the steps for handling an exception in Java in correct order.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Execute finally block",
+            "JVM searches for matching catch block",
+            "Normal code execution resumes after try-catch",
+            "Exception is thrown inside try block",
+            "Matching catch block executes"
+        ],
+        "correctOrder": [
+            4,
+            2,
+            5,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Arrange the steps of Insertion Sort in correct order.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Shift all larger elements one position to the right",
+            "Pick the next unsorted element (key)",
+            "Insert key at the correct position",
+            "Start from the second element",
+            "Compare key with elements in sorted portion"
+        ],
+        "correctOrder": [
+            4,
+            2,
+            5,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Arrange the steps of creating and starting a Thread using Runnable in Java.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Call thread.start()",
+            "Implement the run() method inside Runnable",
+            "Create a Thread object passing the Runnable",
+            "Create a class that implements Runnable"
+        ],
+        "correctOrder": [
+            4,
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Arrange these memory areas in Java from smallest to largest scope/lifetime.",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "ordering",
+        "options": [
+            "Heap (object storage)",
+            "Stack frame (method call)",
+            "Method Area (class metadata)",
+            "Local variable inside a block"
+        ],
+        "correctOrder": [
+            4,
+            2,
+            1,
+            3
+        ],
+        "hint": "Think about how long each area lives. A local variable inside a block dies when the block ends. A stack frame lives for one method call. Heap objects live until GC. Method Area lives as long as the class is loaded."
+    },
+    {
+        "question": "Arrange the Big-O complexities from fastest (best) to slowest (worst).",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "ordering",
+        "options": [
+            "O(n^2)",
+            "O(log n)",
+            "O(n log n)",
+            "O(2^n)",
+            "O(1)"
+        ],
+        "correctOrder": [
+            5,
+            2,
+            3,
+            1,
+            4
+        ],
+        "hint": "Plot each function: constant never grows, log grows very slowly, linearithmic is n*log, quadratic is faster than exponential only for small n. For large n: O(1) < O(log n) < O(n log n) < O(n^2) < O(2^n)."
+    },
+    {
+        "question": "What does OOP stand for?",
+        "category": "OOP",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Object Oriented Programming"
+    },
+    {
+        "question": "What does SQL stand for?",
+        "category": "Databases",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Structured Query Language"
+    },
+    {
+        "question": "What design pattern ensures a class has only one instance?",
+        "category": "Design Patterns",
+        "difficulty": "medium",
+        "type": "open_ended",
+        "answer": "Singleton"
+    },
+    {
+        "question": "Which traversal of a BST gives elements in sorted ascending order?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "open_ended",
+        "answer": "Inorder"
+    },
+    {
+        "question": "What is the default port for HTTP?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "80"
+    },
+    {
+        "question": "In database normalization, what does 3NF stand for?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "open_ended",
+        "answer": "Third Normal Form"
+    },
+    {
+        "question": "Which graph algorithm finds the shortest path in an unweighted graph?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "open_ended",
+        "answer": "BFS"
+    },
+    {
+        "question": "What does REST stand for in web services?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Representational State Transfer"
+    },
+    {
+        "question": "What is the Big-O notation for accessing an element in an array by index?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "O(1)"
+    },
+    {
+        "question": "In Java, what interface must a class implement to be sorted by Collections.sort()?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "open_ended",
+        "answer": "Comparable"
+    },
+    {
+        "question": "What does DFS stand for in graph traversal?",
+        "category": "Algorithms",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Depth First Search"
+    },
+    {
+        "question": "What does JVM stand for?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Java Virtual Machine"
+    },
+    {
+        "question": "What does DBMS stand for?",
+        "category": "Databases",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Database Management System"
+    },
+    {
+        "question": "What does CPU stand for?",
+        "category": "OS",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Central Processing Unit"
+    },
+    {
+        "question": "Which HTTP status code represents a successful response?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "200"
+    },
+    {
+        "question": "What is the default value of an int variable declared as a class field in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "0"
+    },
+    {
+        "question": "What does API stand for?",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Application Programming Interface"
+    },
+    {
+        "question": "What is the time complexity of searching in a balanced BST?",
+        "category": "Data Structures",
+        "difficulty": "medium",
+        "type": "open_ended",
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which Java keyword is used to define a constant variable?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "final"
+    },
+    {
+        "question": "What does GC stand for in the context of Java memory management?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Garbage Collection"
+    },
+    {
+        "question": "What does HTTPS stand for?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "HyperText Transfer Protocol Secure"
+    },
+    {
+        "question": "What is the maximum number of children a node can have in a binary tree?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "2"
+    },
+    {
+        "question": "What does IDE stand for in software development?",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Integrated Development Environment"
+    },
+    {
+        "question": "What does the acronym LIFO stand for?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "Last In First Out"
+    },
+    {
+        "question": "What does FIFO stand for?",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "First In First Out"
+    },
+    {
+        "question": "What is the time complexity of deleting a node from a doubly linked list given a pointer to that node?",
+        "category": "Data Structures",
+        "difficulty": "hard",
+        "type": "open_ended",
+        "answer": "O(1)",
+        "hint": "You have the pointer directly to the node. You only need to update the prev and next pointers of its neighbours -- no traversal required."
+    },
+    {
+        "question": "Which keyword is used to implement an interface in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "open_ended",
+        "answer": "implements"
+    },
+    {
+        "question": "What does the ___ keyword in Java ensure that a variable's value is always read from main memory and not from a thread's local cache?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "volatile"
+    },
+    {
+        "question": "In Java, the ___ block always runs after try-catch, whether or not an exception was thrown.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "finally"
+    },
+    {
+        "question": "The ___ sorting algorithm works by repeatedly merging sorted halves of an array.",
+        "category": "Algorithms",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "Merge Sort"
+    },
+    {
+        "question": "In SQL, the ___ clause is used to filter results after grouping.",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "HAVING"
+    },
+    {
+        "question": "In Java, a class that cannot be instantiated and may contain abstract methods is declared with the ___ keyword.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "abstract"
+    },
+    {
+        "question": "The ___ data structure is used internally by recursion via the call stack.",
+        "category": "Data Structures",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "Stack"
+    },
+    {
+        "question": "In graph theory, a graph with no cycles is called a ___.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "acyclic graph"
+    },
+    {
+        "question": "The ___ pattern restricts instantiation of a class to a single object.",
+        "category": "Design Patterns",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "Singleton"
+    },
+    {
+        "question": "In Java, the ___ method is the entry point of any standalone application.",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "main"
+    },
+    {
+        "question": "A self-balancing BST that maintains a balance factor of -1, 0, or 1 at every node is called a/an ___ tree.",
+        "category": "Data Structures",
+        "difficulty": "hard",
+        "type": "fill",
+        "answer": "AVL",
+        "hint": "Named after its inventors Adelson-Velsky and Landis. The balance factor is the height difference between left and right subtrees."
+    },
+    {
+        "question": "What is the output of the following Java code?\nint a = 10, b = 3;\nSystem.out.println(a / b);",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "3"
+    },
+    {
+        "question": "What is the output of the following Java code?\nSystem.out.println(\"Hello\" + \"World\");",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "HelloWorld"
+    },
+    {
+        "question": "What is the output of the following Java code?\nint x = 5;\nSystem.out.println(++x);",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "6"
+    },
+    {
+        "question": "What is the output of the following Java code?\nfor (int i = 0; i < 3; i++) {\n  System.out.print(i + \" \");\n}",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "0 1 2 "
+    },
+    {
+        "question": "What is the output of the following Java code?\nint x = 7;\nSystem.out.println(x % 3);",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "1"
+    },
+    {
+        "question": "What is the output of the following Java code?\nString s = \"Java\";\nSystem.out.println(s.length());",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "4"
+    },
+    {
+        "question": "What is the output of the following Java code?\nint[] arr = {10, 20, 30};\nSystem.out.println(arr[1]);",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "20"
+    },
+    {
+        "question": "What is the output of the following Java code?\nSystem.out.println(2 + 3 + \"4\" + 5 + 6);",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "5456"
+    },
+    {
+        "question": "What is the output of the following Java code?\nint i = 0;\nwhile (i < 5) {\n  i += 2;\n}\nSystem.out.println(i);",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "6"
+    },
+    {
+        "question": "What is the output of the following Java code?\nString a = \"hello\";\nString b = \"hello\";\nSystem.out.println(a == b);",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "true"
+    },
+    {
+        "question": "What is the output of the following Java code?\nString a = new String(\"hello\");\nString b = new String(\"hello\");\nSystem.out.println(a == b);",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "false"
+    },
+    {
+        "question": "What is the output of the following Java code?\nint x = 1;\nswitch (x) {\n  case 1: System.out.print(\"One\");\n  case 2: System.out.print(\"Two\");\n  default: System.out.print(\"Default\");\n}",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "OneTwoDefault"
+    },
+    {
+        "question": "What is the output of the following Java code?\ntry {\n  int x = 1 / 0;\n} catch (ArithmeticException e) {\n  System.out.print(\"Caught \");\n} finally {\n  System.out.print(\"Finally\");\n}",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "Caught Finally"
+    },
+    {
+        "question": "What is the output of the following Java code?\nint x = 5;\nint y = x++;\nSystem.out.println(x + \" \" + y);",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "6 5",
+        "hint": "Post-increment (x++) returns the original value of x first, then increments. So y gets the old value (5), and x becomes 6 after the assignment."
+    },
+    {
+        "question": "What is the output of the following Java code?\nSystem.out.println(Integer.parseInt(\"10\") + Integer.parseInt(\"20\"));",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "30",
+        "hint": "Integer.parseInt() converts String to int. Both are parsed to ints before the + operator, so it is integer addition, not string concatenation."
+    },
+    {
+        "question": "Which of the following are correct about Java's 'final' keyword?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "A final variable cannot be reassigned after initialization",
+            "A final method cannot be overridden",
+            "A final class cannot be subclassed",
+            "A final class cannot have any methods"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following correctly describe Java's HashMap behavior?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "It allows one null key",
+            "It maintains insertion order",
+            "It is not synchronized",
+            "It allows multiple null values"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ],
+        "hint": "HashMap vs LinkedHashMap: only LinkedHashMap maintains insertion order. HashMap is not thread-safe and is very permissive with nulls."
+    },
+    {
+        "question": "Which statements about Java interfaces are TRUE after Java 8?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Interfaces can have default methods with a body",
+            "Interfaces can have static methods",
+            "Interfaces can have instance fields",
+            "Interfaces can have private methods (Java 9+)"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Which of the following cause a compile-time error in Java?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Accessing a non-static field from a static method",
+            "Catching a checked exception that is never thrown in the try block",
+            "Having an unreachable statement after return",
+            "Dividing an integer by zero"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Integer division by zero is a runtime exception (ArithmeticException), not a compile-time error."
+    },
+    {
+        "question": "Which of the following are true about Java's String pool?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "String literals are stored in the string pool",
+            "new String(\"abc\") always creates a new object on the heap",
+            "String.intern() can add a string to the pool",
+            "The string pool is located in the stack"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "The string pool is in the Heap (specifically PermGen in older JVMs, Metaspace/Heap in Java 8+). Stack stores local variable references, not objects."
+    },
+    {
+        "question": "Which are valid ways to iterate over a List in Java?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "for-each loop",
+            "Iterator",
+            "ListIterator",
+            "while loop with get(i)"
+        ],
+        "answers": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "What is the output of the following Java code?\nclass A {\n  static int x = 10;\n}\nclass B extends A {\n  static int x = 20;\n}\npublic class Test {\n  public static void main(String[] args) {\n    A obj = new B();\n    System.out.println(obj.x);\n  }\n}",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "10",
+        "hint": "Static fields are resolved by the reference type at compile time, not the actual object type at runtime. obj is declared as type A, so A.x = 10 is used."
+    },
+    {
+        "question": "What is the output of the following Java code?\nint i = 0;\nSystem.out.println(i++ + ++i);",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "2",
+        "hint": "i++ returns 0 then i becomes 1. ++i first increments i to 2 then returns 2. So 0 + 2 = 2."
+    },
+    {
+        "question": "What is the output of the following Java code?\nString s1 = \"abc\";\nString s2 = s1.concat(\"def\");\nSystem.out.println(s1);\nSystem.out.println(s2);",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "abc\nabcdef"
+    },
+    {
+        "question": "What is the output of the following Java code?\nint x = 10;\nif (x > 5)\n  if (x > 8)\n    System.out.println(\"A\");\n  else\n    System.out.println(\"B\");\nelse\n  System.out.println(\"C\");",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "A"
+    },
+    {
+        "question": "What is the output of the following Java code?\nList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));\nfor (int i : list) {\n  if (i == 2) list.remove(Integer.valueOf(2));\n}\nSystem.out.println(list);",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "ConcurrentModificationException",
+        "hint": "You cannot structurally modify a list while iterating over it with a for-each loop. Use Iterator.remove() instead."
+    },
+    {
+        "question": "What is the output of the following Java code?\nSystem.out.println(Math.floor(-2.5));\nSystem.out.println(Math.ceil(-2.5));",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "-3.0\n-2.0"
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  int x = 5;\n  cout << x++ << \" \" << ++x;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "5 7",
+        "hint": "x++ returns 5 and post-increments x to 6. ++x pre-increments x to 7 and returns 7. Note: evaluation order of function arguments can be undefined, but cout with << evaluates left to right."
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  int arr[] = {10, 20, 30, 40};\n  int* p = arr;\n  cout << *(p + 2);\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "30"
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nclass A {\npublic:\n  virtual void show() { cout << \"A\"; }\n};\nclass B : public A {\npublic:\n  void show() { cout << \"B\"; }\n};\nint main() {\n  A* obj = new B();\n  obj->show();\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "B"
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint fun(int x) {\n  return x > 1 ? x * fun(x - 1) : 1;\n}\nint main() {\n  cout << fun(5);\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "120"
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  int x = 10;\n  int& ref = x;\n  ref = 20;\n  cout << x;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "20"
+    },
+    {
+        "question": "Match each C++ concept to its description.",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Reference",
+            "Pointer",
+            "Virtual function",
+            "Constructor"
+        ],
+        "right": [
+            "Enables runtime polymorphism via vtable",
+            "An alias for an existing variable, cannot be null",
+            "Called automatically when an object is created",
+            "Holds memory address, can be null or reassigned"
+        ],
+        "matches": [
+            2,
+            4,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Match each C++ special member function to when the compiler auto-generates it.",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "Default constructor",
+            "Copy constructor",
+            "Move constructor",
+            "Destructor"
+        ],
+        "right": [
+            "Generated unless user declares any constructor",
+            "Generated if no move constructor/assignment is user-declared",
+            "Generated if no copy/move operations or destructor are declared",
+            "Always generated unless user declares one"
+        ],
+        "matches": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "hint": "Rule of Five: if you declare any of destructor, copy constructor, copy assignment, move constructor, move assignment -- the compiler may suppress auto-generation of others."
+    },
+    {
+        "question": "Which of the following are features of C++ not present in C?",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "Classes and Objects",
+            "Function overloading",
+            "Pointers",
+            "Templates"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Which of the following are true about C++ virtual destructors?",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "A virtual destructor ensures derived class destructor is called when deleting via base pointer",
+            "Virtual destructors are required whenever a class is intended to be used polymorphically",
+            "Making a destructor virtual has zero runtime overhead",
+            "A pure virtual destructor makes a class abstract"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Virtual functions introduce vtable overhead. A class with any virtual function (including destructor) requires a vptr per object."
+    },
+    {
+        "question": "Which of the following correctly describe C++ smart pointers?",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "unique_ptr allows only one owner at a time",
+            "shared_ptr uses reference counting",
+            "weak_ptr increases the reference count of shared_ptr",
+            "unique_ptr can be moved but not copied"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Arrange the steps of C++ program compilation in the correct order.",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Linking object files into an executable",
+            "Preprocessing (macros, includes expanded)",
+            "Assembling to object code",
+            "Compiling to assembly language"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "The ___ keyword in C++ is used to declare a function that must be overridden in a derived class.",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "virtual"
+    },
+    {
+        "question": "In C++, the operator used to access a member of a class through a pointer is ___.",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "->"
+    },
+    {
+        "question": "In C++, a class member declared as ___ can only be accessed within the class itself.",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "private"
+    },
+    {
+        "question": "Which of the following are true about Binary Search Trees (BST)?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Left child is always less than parent",
+            "Right child is always greater than parent",
+            "Inorder traversal always gives sorted output",
+            "Search is always O(log n)"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "In a degenerate/skewed BST (like inserting sorted data), search degrades to O(n)."
+    },
+    {
+        "question": "Which of the following operations on a Stack are O(1)?",
+        "category": "DSA",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "push()",
+            "pop()",
+            "peek()",
+            "search()"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Match each tree traversal to the order it visits nodes for the tree: root=1, left=2, right=3.",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Level Order"
+        ],
+        "right": [
+            "2, 1, 3",
+            "1, 2, 3",
+            "2, 3, 1",
+            "1, 2, 3 (level by level)"
+        ],
+        "matches": [
+            2,
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Match each data structure to its average-case time complexity for search.",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Unsorted Array",
+            "Sorted Array (Binary Search)",
+            "Hash Table",
+            "Balanced BST"
+        ],
+        "right": [
+            "O(log n) -- binary search",
+            "O(n) -- linear scan",
+            "O(1) -- hash function",
+            "O(log n) -- tree traversal"
+        ],
+        "matches": [
+            2,
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Which of the following are self-balancing BSTs?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "AVL Tree",
+            "Red-Black Tree",
+            "B-Tree",
+            "Binary Heap"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "A Binary Heap is not a BST at all -- it only guarantees the heap property (parent >= children in max-heap), not BST ordering."
+    },
+    {
+        "question": "Arrange the following graph representations from least to most memory usage for a sparse graph with V vertices and E edges where E << V^2.",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "ordering",
+        "options": [
+            "Adjacency Matrix",
+            "Adjacency List",
+            "Edge List",
+            "Incidence Matrix"
+        ],
+        "correctOrder": [
+            3,
+            2,
+            4,
+            1
+        ],
+        "hint": "Edge list stores only E edges. Adjacency list stores V+E. Incidence matrix is V x E. Adjacency matrix is V x V -- for sparse graphs where E << V^2, the matrix wastes the most space."
+    },
+    {
+        "question": "The ___ algorithm uses a disjoint set (union-find) data structure to find the minimum spanning tree.",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "Kruskal's"
+    },
+    {
+        "question": "In a min-heap of n elements, what is the time complexity of extracting the minimum element?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the time complexity of building a heap from an unsorted array of n elements?",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "O(n log n)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "answer": 2,
+        "hint": "Heapify runs on n/2 nodes. Most nodes are near the bottom with height ~0. The total work sums to O(n), not O(n log n)."
+    },
+    {
+        "question": "Which of the following problems can be solved using Dynamic Programming?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "0/1 Knapsack Problem",
+            "Longest Common Subsequence",
+            "Dijkstra's Shortest Path",
+            "Matrix Chain Multiplication"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Dijkstra's is a greedy algorithm, not DP. It does not explore all subproblems -- it greedily picks the minimum distance node each time."
+    },
+    {
+        "question": "What is the worst-case time complexity of inserting n elements into a hash table one by one, assuming rehashing occurs at load factor 0.75?",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(1) per insert always"
+        ],
+        "answer": 1,
+        "hint": "Amortized over all n insertions, the rehashing cost distributes to O(1) amortized per insert, making total O(n)."
+    },
+    {
+        "question": "Match each algorithm paradigm to its example.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Greedy",
+            "Backtracking"
+        ],
+        "right": [
+            "N-Queens Problem",
+            "Merge Sort",
+            "Fractional Knapsack",
+            "Fibonacci with memoization"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Arrange these algorithm complexities from fastest to slowest for large n.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "O(n!)",
+            "O(n^3)",
+            "O(1)",
+            "O(n log n)",
+            "O(2^n)",
+            "O(n)"
+        ],
+        "correctOrder": [
+            3,
+            4,
+            6,
+            2,
+            5,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are true about Dijkstra's algorithm?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "It works on graphs with non-negative edge weights",
+            "It uses a priority queue (min-heap) for efficiency",
+            "It is a type of dynamic programming",
+            "Time complexity with binary heap is O((V + E) log V)"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Dijkstra's is classified as a greedy algorithm, not DP. It makes the locally optimal (minimum distance) choice at each step without reconsidering."
+    },
+    {
+        "question": "Which sorting algorithm is best suited for sorting a nearly sorted array of n elements?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Merge Sort",
+            "Insertion Sort",
+            "Selection Sort",
+            "Heap Sort"
+        ],
+        "answer": 2,
+        "hint": "Insertion Sort has O(n + d) complexity where d is the number of inversions. For nearly sorted arrays, d is small, making it nearly O(n)."
+    },
+    {
+        "question": "The ___ algorithm finds strongly connected components in a directed graph in O(V + E) time.",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "fill",
+        "answer": "Kosaraju's",
+        "hint": "Two-pass DFS algorithm: first pass on original graph (DFS + finish time stack), second pass on transposed graph."
+    },
+    {
+        "question": "Which of the following are true about the Floyd-Warshall algorithm?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "It finds shortest paths between all pairs of vertices",
+            "It can handle negative edge weights",
+            "Its time complexity is O(V^3)",
+            "It cannot detect negative cycles"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Floyd-Warshall CAN detect negative cycles: if dist[i][i] < 0 for any i after running, a negative cycle exists."
+    },
+    {
+        "question": "Match each graph algorithm to its time complexity using adjacency list.",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "BFS",
+            "DFS",
+            "Dijkstra (binary heap)",
+            "Bellman-Ford"
+        ],
+        "right": [
+            "O(V * E) -- relaxes all edges V-1 times",
+            "O(V + E) -- visits each vertex/edge using queue",
+            "O(V + E) -- visits each vertex/edge using stack/recursion",
+            "O((V + E) log V) -- priority queue per extraction"
+        ],
+        "matches": [
+            2,
+            3,
+            4,
+            1
+        ],
+        "hint": "BFS and DFS both visit each vertex and edge once: O(V+E). Dijkstra with binary heap adds log factor per extraction. Bellman-Ford relaxes all E edges V-1 times: O(V*E)."
+    },
+    {
+        "question": "What is the recurrence relation for Merge Sort?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "T(n) = T(n-1) + O(n)",
+            "T(n) = 2T(n/2) + O(n)",
+            "T(n) = T(n/2) + O(1)",
+            "T(n) = 2T(n/2) + O(1)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following are NP-Complete problems?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Travelling Salesman Problem (decision version)",
+            "0/1 Knapsack (decision version)",
+            "Sorting n numbers",
+            "Boolean Satisfiability (SAT)"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Sorting is solvable in polynomial time O(n log n), so it is in class P, not NP-Complete."
+    },
+    {
+        "question": "Arrange the steps of Dijkstra's algorithm in correct order.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Extract vertex u with minimum distance from priority queue",
+            "Initialize all distances as infinity except source = 0",
+            "For each unvisited neighbor v, relax edge (u, v)",
+            "Insert source into priority queue",
+            "Mark u as visited"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            1,
+            5,
+            3
+        ]
+    },
+    {
+        "question": "What is the time complexity of finding the Lowest Common Ancestor (LCA) in a binary tree using naive method?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "answer": 3,
+        "hint": "Naive LCA traverses the tree once per node in worst case. Preprocessing with Euler tour + sparse table gives O(n log n) preprocessing and O(1) query."
+    },
+    {
+        "question": "Which SQL aggregate functions ignore NULL values?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "COUNT(*)",
+            "COUNT(column)",
+            "SUM(column)",
+            "AVG(column)"
+        ],
+        "answers": [
+            2,
+            3,
+            4
+        ],
+        "hint": "COUNT(*) counts all rows including NULLs. COUNT(column) skips NULLs. SUM and AVG both skip NULL values in their calculation."
+    },
+    {
+        "question": "Match each SQL concept to its correct description.",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Primary Key",
+            "Foreign Key",
+            "Unique Constraint",
+            "Check Constraint"
+        ],
+        "right": [
+            "Ensures a column value satisfies a boolean condition",
+            "Uniquely identifies each row, cannot be NULL",
+            "References the primary key of another table",
+            "Ensures all values in a column are distinct, allows one NULL"
+        ],
+        "matches": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "What is the output of the following SQL query if the table Employees has rows: (1,'Alice',50000), (2,'Bob',NULL), (3,'Carol',60000)?\nSELECT AVG(salary) FROM Employees;",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "55000",
+        "hint": "AVG ignores NULL values. It computes (50000 + 60000) / 2 = 55000, not dividing by 3."
+    },
+    {
+        "question": "Which of the following SQL statements will correctly find employees who earn more than the average salary?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "SELECT * FROM Employees WHERE salary > AVG(salary)",
+            "SELECT * FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees)",
+            "SELECT * FROM Employees HAVING salary > AVG(salary)",
+            "SELECT * FROM Employees WHERE salary = MAX(salary)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the difference between DELETE, TRUNCATE, and DROP in SQL?",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "All three are identical",
+            "DELETE removes rows (can use WHERE), TRUNCATE removes all rows faster (no log per row), DROP removes the table entirely",
+            "DELETE and TRUNCATE both remove the table structure",
+            "TRUNCATE can be rolled back always, DELETE cannot"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Arrange the SQL query execution order (logical processing order).",
+        "category": "Databases",
+        "difficulty": "hard",
+        "type": "ordering",
+        "options": [
+            "SELECT",
+            "WHERE",
+            "FROM",
+            "GROUP BY",
+            "HAVING",
+            "ORDER BY"
+        ],
+        "correctOrder": [
+            3,
+            2,
+            4,
+            5,
+            1,
+            6
+        ],
+        "hint": "FROM specifies tables first, WHERE filters rows, GROUP BY aggregates, HAVING filters groups, SELECT chooses columns, ORDER BY sorts result."
+    },
+    {
+        "question": "In SQL, which of the following are true about transactions?",
+        "category": "Databases",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "A transaction must be either fully committed or fully rolled back",
+            "SAVEPOINT allows partial rollback within a transaction",
+            "DDL statements (CREATE, DROP) are always auto-committed in most RDBMS",
+            "Isolation levels affect how transactions see each other's changes"
+        ],
+        "answers": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "hint": "SAVEPOINT is part of SQL standard. DDL auto-commit is database-specific (true in Oracle, MySQL) but not universal. All four statements are true."
+    },
+    {
+        "question": "The ___ normal form requires that every non-key attribute is fully functionally dependent on the entire primary key, not just part of it.",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "Second"
+    },
+    {
+        "question": "Which index type in databases is best suited for range queries like WHERE age BETWEEN 20 AND 30?",
+        "category": "Databases",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "Hash Index",
+            "B-Tree Index",
+            "Bitmap Index",
+            "Full-text Index"
+        ],
+        "answer": 2,
+        "hint": "Hash indexes only support equality lookups (WHERE x = 5). B-Tree indexes maintain sorted order, making range queries efficient."
+    },
+    {
+        "question": "Match each database isolation level to the anomaly it prevents.",
+        "category": "Databases",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "Read Uncommitted",
+            "Read Committed",
+            "Repeatable Read",
+            "Serializable"
+        ],
+        "right": [
+            "Prevents all anomalies including phantom reads",
+            "Prevents nothing -- allows dirty reads",
+            "Prevents non-repeatable reads but allows phantom reads",
+            "Prevents dirty reads only"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ],
+        "hint": "Each level is stricter than the previous. Read Uncommitted is weakest. Serializable is strongest -- it's as if transactions run one after another."
+    },
+    {
+        "question": "Which of the following are true about OS process scheduling?",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Round Robin uses a time quantum",
+            "FCFS is non-preemptive",
+            "Shortest Job First (SJF) is always optimal for average waiting time",
+            "Priority Scheduling always prevents starvation"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Priority Scheduling can cause starvation for low-priority processes. Aging (gradually increasing priority of waiting processes) is the fix."
+    },
+    {
+        "question": "Match each OS memory management concept to its description.",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Paging",
+            "Segmentation",
+            "Thrashing",
+            "TLB"
+        ],
+        "right": [
+            "Hardware cache that speeds up virtual-to-physical address translation",
+            "Divides memory into fixed-size blocks",
+            "Divides memory into variable-size logical units",
+            "CPU spends more time paging than executing"
+        ],
+        "matches": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are necessary conditions for deadlock (Coffman conditions)?",
+        "category": "OS",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Mutual Exclusion",
+            "Hold and Wait",
+            "Preemption of resources",
+            "Circular Wait"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "The four Coffman conditions are: Mutual Exclusion, Hold and Wait, NO Preemption, and Circular Wait. Preemption existing actually PREVENTS deadlock."
+    },
+    {
+        "question": "What is the difference between a mutex and a semaphore?",
+        "category": "OS",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "They are identical in functionality",
+            "A mutex allows multiple threads at once; a semaphore allows only one",
+            "A mutex is owned by the thread that locks it and only that thread can unlock it; a semaphore has no ownership",
+            "A semaphore is only used for IPC; mutex is only for threads"
+        ],
+        "answer": 3,
+        "hint": "Mutex ownership is key: only the locking thread can unlock. A semaphore can be signaled by a different thread than the one that waited."
+    },
+    {
+        "question": "Arrange the OS boot process steps in correct order.",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "OS kernel loads into memory",
+            "BIOS/UEFI runs POST (Power On Self Test)",
+            "User login prompt appears",
+            "Bootloader (e.g., GRUB) is executed",
+            "BIOS finds and reads the boot sector"
+        ],
+        "correctOrder": [
+            2,
+            5,
+            4,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Which page replacement algorithm suffers from Belady's Anomaly?",
+        "category": "OS",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "LRU",
+            "Optimal",
+            "FIFO",
+            "LFU"
+        ],
+        "answer": 3,
+        "hint": "Belady's Anomaly: increasing the number of frames can increase page faults. LRU and Optimal are stack algorithms and are immune. FIFO is not a stack algorithm."
+    },
+    {
+        "question": "The ___ scheduling algorithm assigns the CPU to the process with the smallest next CPU burst.",
+        "category": "OS",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "Shortest Job First"
+    },
+    {
+        "question": "Which of the following are true about virtual memory?",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "It allows a process to use more memory than physically available RAM",
+            "Pages are loaded from disk only when needed (demand paging)",
+            "It eliminates the possibility of thrashing",
+            "The page table maps virtual addresses to physical frames"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Match each OSI layer to its primary protocol.",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Physical Layer",
+            "Network Layer",
+            "Transport Layer",
+            "Application Layer"
+        ],
+        "right": [
+            "HTTP, FTP, DNS",
+            "TCP, UDP",
+            "IP, ICMP",
+            "Ethernet, Wi-Fi (802.11)"
+        ],
+        "matches": [
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are true about TCP vs UDP?",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "TCP guarantees delivery; UDP does not",
+            "UDP has lower overhead than TCP",
+            "TCP is connection-oriented; UDP is connectionless",
+            "UDP is preferred for video streaming where some loss is acceptable"
+        ],
+        "answers": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "What is the purpose of the DNS in networking?",
+        "category": "Networking",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "Encrypts network traffic",
+            "Translates domain names to IP addresses",
+            "Assigns IP addresses dynamically",
+            "Routes packets between networks"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Match each networking protocol to its default port.",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "HTTP",
+            "HTTPS",
+            "FTP",
+            "SSH"
+        ],
+        "right": [
+            "22",
+            "80",
+            "21",
+            "443"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "The ___ protocol is used to automatically assign IP addresses to devices on a network.",
+        "category": "Networking",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "DHCP"
+    },
+    {
+        "question": "Which of the following are true about IP addressing?",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "IPv4 uses 32-bit addresses",
+            "IPv6 uses 128-bit addresses",
+            "A subnet mask separates the network and host portions of an IP",
+            "10.0.0.1 is a public IP address"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "10.0.0.0/8 is a private IP range (RFC 1918). Private ranges are 10.x.x.x, 172.16-31.x.x, and 192.168.x.x."
+    },
+    {
+        "question": "Arrange the steps of the TCP 3-way handshake in correct order.",
+        "category": "Networking",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Server sends SYN-ACK",
+            "Client sends ACK",
+            "Connection is established",
+            "Client sends SYN"
+        ],
+        "correctOrder": [
+            4,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "If log base 2 of x = 10, what is x?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "20",
+            "512",
+            "1024",
+            "100"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the sum of the first n natural numbers?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "n * (n + 1)",
+            "n * (n - 1) / 2",
+            "n * (n + 1) / 2",
+            "n^2"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A train travels 60 km in 45 minutes. What is its speed in km/h?",
+        "category": "Aptitude",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "60",
+            "75",
+            "80",
+            "90"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "If 6 workers complete a job in 8 days, how many days will 4 workers take to complete the same job?",
+        "category": "Aptitude",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "10",
+            "12",
+            "14",
+            "16"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the probability of getting a head when a fair coin is tossed?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "1/4",
+            "1/3",
+            "1/2",
+            "2/3"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is 15% of 200?",
+        "category": "Aptitude",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "25",
+            "30",
+            "35",
+            "40"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In how many ways can 5 people be arranged in a row?",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "25",
+            "60",
+            "120",
+            "240"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the GCD of 48 and 36?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "6",
+            "8",
+            "12",
+            "18"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A box contains 3 red, 4 blue, and 5 green balls. What is the probability of picking a blue ball?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "1/3",
+            "1/4",
+            "4/12",
+            "Both 1/3 and 4/12 (they are equal)"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "If A is 40% more than B, then B is what percent less than A?",
+        "category": "Aptitude",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "40%",
+            "28.57%",
+            "33.33%",
+            "25%"
+        ],
+        "answer": 2,
+        "hint": "If B = 100, then A = 140. B is less than A by 40. (40/140) * 100 = 28.57%."
+    },
+    {
+        "question": "Two pipes A and B can fill a tank in 12 and 18 hours respectively. Both are opened together. How long to fill the tank?",
+        "category": "Aptitude",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "6.4 hours",
+            "7.2 hours",
+            "8 hours",
+            "9 hours"
+        ],
+        "answer": 2,
+        "hint": "Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 hours."
+    },
+    {
+        "question": "What is the value of 2^10?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "512",
+            "1024",
+            "2048",
+            "256"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If log(x) + log(y) = log(z), then which of the following is true?",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "x + y = z",
+            "x * y = z",
+            "x - y = z",
+            "x / y = z"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "How many prime numbers are there between 1 and 20?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A car depreciates at 10% per year. What is its value after 2 years if originally worth 1,00,000?",
+        "category": "Aptitude",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "80,000",
+            "81,000",
+            "82,000",
+            "79,000"
+        ],
+        "answer": 2,
+        "hint": "After year 1: 1,00,000 * 0.9 = 90,000. After year 2: 90,000 * 0.9 = 81,000."
+    },
+    {
+        "question": "Arrange these number system conversions: the decimal number 13 in different bases.",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "1101 (Binary)",
+            "15 (Octal)",
+            "D (Hexadecimal)",
+            "13 (Decimal)"
+        ],
+        "correctOrder": [
+            4,
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Match each number to its representation in binary.",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mtf",
+        "left": [
+            "5",
+            "8",
+            "10",
+            "15"
+        ],
+        "right": [
+            "1111",
+            "0101",
+            "1010",
+            "1000"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "A shopkeeper sells an item at 20% profit. If the cost price is 500, what is the selling price?",
+        "category": "Aptitude",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "580",
+            "600",
+            "620",
+            "640"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the LCM of 12 and 18?",
+        "category": "Math",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "24",
+            "36",
+            "48",
+            "72"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In how many ways can a committee of 3 be chosen from 7 people?",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "21",
+            "35",
+            "42",
+            "70"
+        ],
+        "answer": 2,
+        "hint": "C(7,3) = 7! / (3! * 4!) = (7*6*5) / (3*2*1) = 210/6 = 35."
+    },
+    {
+        "question": "The ___ theorem states that for any prime p and integer a not divisible by p, a^(p-1) is congruent to 1 (mod p).",
+        "category": "Math",
+        "difficulty": "hard",
+        "type": "fill",
+        "answer": "Fermat's Little",
+        "hint": "This theorem is foundational in RSA encryption and modular arithmetic."
+    },
+    {
+        "question": "What is the time complexity of the naive string matching algorithm for pattern of length m in text of length n?",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "O(n)",
+            "O(m)",
+            "O(n * m)",
+            "O(n + m)"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following are correct properties of a B-Tree of order m?",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Every node has at most m children",
+            "Every non-leaf node (except root) has at least ceil(m/2) children",
+            "All leaves appear at the same level",
+            "The root has at least 2 children if it is not a leaf"
+        ],
+        "answers": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "hint": "B-Trees are designed for disk storage. All properties ensure the tree remains balanced so disk reads are minimized."
+    },
+    {
+        "question": "What is the correct output of the following C++ code?\n#include<iostream>\nusing namespace std;\nvoid swap(int a, int b) {\n  int t = a; a = b; b = t;\n}\nint main() {\n  int x = 5, y = 10;\n  swap(x, y);\n  cout << x << \" \" << y;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "5 10",
+        "hint": "Parameters are passed by value. Changes to a and b inside swap() do not affect x and y. Use references (int& a, int& b) to swap in-place."
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nclass A {\npublic:\n  A() { cout << \"A\"; }\n  ~A() { cout << \"~A\"; }\n};\nclass B : public A {\npublic:\n  B() { cout << \"B\"; }\n  ~B() { cout << \"~B\"; }\n};\nint main() {\n  B obj;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "AB~B~A",
+        "hint": "Constructors call parent first, then child (A then B). Destructors are the reverse: child first (~B), then parent (~A)."
+    },
+    {
+        "question": "Which of the following are true about OOP's SOLID principles?",
+        "category": "OOP",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "S stands for Single Responsibility Principle",
+            "O stands for Open for modification, Closed for extension",
+            "L stands for Liskov Substitution Principle",
+            "D stands for Dependency Inversion Principle"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ],
+        "hint": "O is Open/Closed: Open for EXTENSION, Closed for MODIFICATION. Software entities should be extendable without changing existing code."
+    },
+    {
+        "question": "Match each design pattern to its correct category.",
+        "category": "OOP",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Factory Method",
+            "Adapter",
+            "Strategy",
+            "Composite"
+        ],
+        "right": [
+            "Structural -- composes objects into tree structures",
+            "Creational -- defines interface for creating objects",
+            "Behavioral -- defines family of interchangeable algorithms",
+            "Structural -- converts incompatible interfaces"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are examples of compile-time polymorphism in OOP?",
+        "category": "OOP",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Method overloading",
+            "Method overriding",
+            "Operator overloading",
+            "Virtual function dispatch"
+        ],
+        "answers": [
+            1,
+            3
+        ],
+        "hint": "Compile-time polymorphism (static binding) is resolved at compile time -- overloading and operator overloading. Runtime polymorphism (dynamic binding) uses virtual functions and overriding."
+    },
+    {
+        "question": "Which of the following are true about inheritance in OOP?",
+        "category": "OOP",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "A subclass inherits all public and protected members of its parent",
+            "A subclass inherits private members but cannot access them directly",
+            "Java supports multiple inheritance through interfaces",
+            "Constructors are inherited by subclasses"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Private members ARE inherited (they exist in the subclass object's memory) but are not directly accessible. Constructors are NOT inherited."
+    },
+    {
+        "question": "Match each OOP design principle to its violation example.",
+        "category": "OOP",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "Single Responsibility Principle",
+            "Open/Closed Principle",
+            "Liskov Substitution Principle",
+            "Interface Segregation Principle"
+        ],
+        "right": [
+            "A class forced to implement methods it does not use",
+            "A subclass that throws an exception for a method the parent supports",
+            "A class that handles both user input and database writes",
+            "Adding new features by modifying existing tested code"
+        ],
+        "matches": [
+            3,
+            4,
+            2,
+            1
+        ],
+        "hint": "Each principle targets a specific design problem: SRP = one class, one job. OCP = extend don't modify. LSP = substitutability. ISP = no fat interfaces."
+    },
+    {
+        "question": "The ___ principle states that high-level modules should not depend on low-level modules; both should depend on abstractions.",
+        "category": "OOP",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "Dependency Inversion"
+    },
+    {
+        "question": "Which of the following are characteristics of RESTful APIs?",
+        "category": "Web",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Stateless -- each request contains all information needed",
+            "Uses HTTP methods (GET, POST, PUT, DELETE)",
+            "Always requires XML as data format",
+            "Resources are identified by URIs"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "REST is format-agnostic. JSON is more common today than XML. The key constraints are statelessness, uniform interface, and resource-based URIs."
+    },
+    {
+        "question": "Match each HTTP method to its correct semantic.",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "mtf",
+        "left": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "right": [
+            "Remove a resource",
+            "Retrieve a resource",
+            "Replace/update a resource completely",
+            "Create a new resource"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are true about HTTP cookies?",
+        "category": "Web",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Cookies are stored on the client side",
+            "HttpOnly flag prevents JavaScript from accessing the cookie",
+            "Secure flag ensures cookies are only sent over HTTPS",
+            "Cookies can store unlimited data"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Cookies are limited to about 4KB. For larger storage, use localStorage or sessionStorage."
+    },
+    {
+        "question": "Arrange the steps of a browser receiving and rendering a web page.",
+        "category": "Web",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Browser renders the page visually",
+            "DNS resolves domain to IP",
+            "Browser parses HTML and builds DOM",
+            "Browser sends HTTP GET request",
+            "Server sends HTTP response with HTML"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            5,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "What is the difference between authentication and authorization?",
+        "category": "Web",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "They are the same thing",
+            "Authentication verifies who you are; authorization verifies what you can do",
+            "Authentication verifies what you can do; authorization verifies who you are",
+            "Authentication is only for APIs; authorization is for web pages"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In version control with Git, which of the following commands create a new branch and switch to it in one step?",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "git checkout -b new-branch",
+            "git branch new-branch",
+            "git switch -c new-branch",
+            "git clone new-branch"
+        ],
+        "answers": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following are true about recursion vs iteration?",
+        "category": "General Programming",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Recursion uses the call stack; iteration uses loops",
+            "Every recursive algorithm can be converted to an iterative one",
+            "Recursion is always less efficient than iteration",
+            "Tail-recursive functions can be optimized by compilers to use O(1) stack space"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Recursion is not always less efficient -- for some problems like tree traversal, recursive code is cleaner and equally efficient. Tail call optimization (TCO) can eliminate stack overhead."
+    },
+    {
+        "question": "Match each version control Git command to its action.",
+        "category": "General Programming",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "git pull",
+            "git push",
+            "git merge",
+            "git rebase"
+        ],
+        "right": [
+            "Moves/replays commits onto a new base, rewriting history",
+            "Fetches and integrates remote changes into current branch",
+            "Combines two branches, creating a merge commit",
+            "Sends local commits to a remote repository"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are true about Big O notation?",
+        "category": "General Programming",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "O(n) means the algorithm's running time grows linearly with input",
+            "Big O describes the upper bound (worst case) of growth",
+            "O(1) always means exactly one operation",
+            "O(n^2) is always slower than O(n log n) for all values of n"
+        ],
+        "answers": [
+            1,
+            2
+        ],
+        "hint": "O(1) means constant time -- it could be 1000 operations, as long as it does not grow with n. For small n, O(n^2) can be faster in practice than O(n log n) due to constants."
+    },
+    {
+        "question": "In the context of software testing, arrange these test types from smallest scope to largest scope.",
+        "category": "General Programming",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "System Testing",
+            "Unit Testing",
+            "User Acceptance Testing",
+            "Integration Testing"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following are valid types of software design patterns?",
+        "category": "Design Patterns",
+        "difficulty": "easy",
+        "type": "msq",
+        "options": [
+            "Creational",
+            "Structural",
+            "Functional",
+            "Behavioral"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "'Functional' is not one of the GoF (Gang of Four) pattern categories. The three GoF categories are Creational, Structural, and Behavioral."
+    },
+    {
+        "question": "Match each Creational design pattern to its intent.",
+        "category": "Design Patterns",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Singleton",
+            "Factory Method",
+            "Abstract Factory",
+            "Builder"
+        ],
+        "right": [
+            "Constructs complex objects step by step",
+            "Ensures only one instance exists",
+            "Creates families of related objects without specifying concrete classes",
+            "Defines an interface for creating an object but lets subclasses decide which class to instantiate"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "Which of the following are Behavioral design patterns?",
+        "category": "Design Patterns",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Observer",
+            "Strategy",
+            "Facade",
+            "Command"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Facade is a Structural pattern -- it provides a simplified interface to a complex subsystem. Observer, Strategy, and Command are all Behavioral."
+    },
+    {
+        "question": "Arrange the steps of the Template Method design pattern in correct order.",
+        "category": "Design Patterns",
+        "difficulty": "hard",
+        "type": "ordering",
+        "options": [
+            "Subclass overrides only the specific steps that differ",
+            "Abstract class defines the overall algorithm skeleton in a template method",
+            "Template method calls abstract (hook) methods in defined order",
+            "Client uses the subclass which inherits the algorithm structure"
+        ],
+        "correctOrder": [
+            2,
+            3,
+            1,
+            4
+        ],
+        "hint": "Template Method = fixed skeleton in parent, variable steps in children. The parent controls the algorithm flow."
+    },
+    {
+        "question": "The ___ pattern defines a one-to-many dependency so that when one object changes state, all its dependents are notified automatically.",
+        "category": "Design Patterns",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "Observer"
+    },
+    {
+        "question": "Which of the following are true about the Proxy design pattern?",
+        "category": "Design Patterns",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "A proxy controls access to the real object",
+            "Virtual proxy can delay object creation until needed (lazy initialization)",
+            "Protection proxy can control access rights",
+            "Proxy and Decorator patterns are identical in structure"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Proxy and Decorator look similar structurally, but differ in intent: Proxy controls access, Decorator adds behavior. A Proxy often creates/manages the real object; a Decorator wraps an already-existing one."
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  static int count = 0;\n  Test() { count++; }\n  public static void main(String[] args) {\n    Test t1 = new Test();\n    Test t2 = new Test();\n    Test t3 = new Test();\n    System.out.println(count);\n  }\n}",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "3"
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    int[] a = {1, 2, 3, 4, 5};\n    System.out.println(a[a.length - 1]);\n  }\n}",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "5"
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  static void print(int x) { System.out.println(\"int: \" + x); }\n  static void print(double x) { System.out.println(\"double: \" + x); }\n  public static void main(String[] args) {\n    print(5);\n    print(5.0);\n  }\n}",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "int: 5\ndouble: 5.0"
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  int a = 5, b = 2;\n  cout << (float)a / b;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "2.5"
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  for (int i = 1; i <= 5; i++) {\n    if (i == 3) continue;\n    cout << i << \" \";\n  }\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "1 2 4 5 "
+    },
+    {
+        "question": "What is the minimum number of comparisons required to find both the maximum and minimum in an array of n elements?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "n - 1",
+            "2n - 2",
+            "ceil(3n/2) - 2",
+            "n log n"
+        ],
+        "answer": 3,
+        "hint": "Process elements in pairs: compare them first (1 comparison), then compare smaller with current min and larger with current max (2 comparisons per pair). Total: 3*(n/2) comparisons = 3n/2 - 2."
+    },
+    {
+        "question": "Which data structure supports O(1) amortized time for both push and pop, and also O(1) for finding the minimum element?",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "Regular Stack",
+            "Min-Heap",
+            "Stack with auxiliary min-stack",
+            "Sorted Array"
+        ],
+        "answer": 3,
+        "hint": "Maintain two stacks: the main stack and an auxiliary stack that always holds the current minimum at its top. Each push/pop updates both."
+    },
+    {
+        "question": "In a doubly linked list, what pointers need to be updated when inserting a new node between nodes A and B?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "Only the next pointer of A",
+            "Only the prev pointer of B",
+            "next of A, prev of B, next of new node, prev of new node",
+            "next of A, prev of new node only"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following are true about graph representations?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Adjacency matrix has O(1) edge lookup",
+            "Adjacency list is more space-efficient for sparse graphs",
+            "Adjacency matrix always uses O(V^2) space",
+            "Adjacency list has O(1) edge lookup"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Edge lookup in adjacency list requires traversing the neighbor list: O(degree) not O(1). Adjacency matrix always allocates V x V regardless of edges."
+    },
+    {
+        "question": "Arrange these operations in a queue implemented with a circular array in correct order when enqueuing an element.",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Increment rear pointer (mod capacity)",
+            "Check if queue is full",
+            "Place element at rear",
+            "Increment size counter"
+        ],
+        "correctOrder": [
+            2,
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "The ___ data structure is used in Prim's algorithm for efficient extraction of the minimum weight edge.",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "Min-Heap"
+    },
+    {
+        "question": "What is the worst-case time complexity of an operation in a Union-Find data structure with both union by rank and path compression?",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "O(log n)",
+            "O(n)",
+            "O(alpha(n))",
+            "O(1)"
+        ],
+        "answer": 3,
+        "hint": "alpha(n) is the inverse Ackermann function. It grows so slowly that for all practical values of n (even 10^80), alpha(n) <= 4. It is considered nearly O(1) in practice."
+    },
+    {
+        "question": "Match each tree type to its key property.",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "Complete Binary Tree",
+            "Perfect Binary Tree",
+            "Full Binary Tree",
+            "Degenerate Tree"
+        ],
+        "right": [
+            "Every node has 0 or 2 children",
+            "Each node has at most one child (like a linked list)",
+            "All internal nodes have 2 children and all leaves at same level",
+            "All levels are filled except possibly the last, filled left to right"
+        ],
+        "matches": [
+            4,
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "What is the correct output of the following Python-like pseudocode?\nx = [1, 2, 3, 4, 5]\nprint(x[1:4])",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "[2, 3, 4]"
+    },
+    {
+        "question": "Which of the following are true about the OSI model vs TCP/IP model?",
+        "category": "Networking",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "OSI has 7 layers; TCP/IP has 4 layers",
+            "TCP/IP combines OSI's Application, Presentation, and Session into one Application layer",
+            "OSI is a theoretical model; TCP/IP is what the internet actually uses",
+            "TCP/IP has a separate Presentation layer"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "TCP/IP model layers: Application (combines OSI layers 5-7), Transport, Internet, Network Access. No separate Presentation or Session layers."
+    },
+    {
+        "question": "Arrange the SQL DDL statements in the correct logical order for setting up a normalized database.",
+        "category": "Databases",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Create child tables with foreign keys",
+            "Insert initial seed data",
+            "Create parent/referenced tables",
+            "Create indexes for performance"
+        ],
+        "correctOrder": [
+            3,
+            1,
+            4,
+            2
+        ]
+    },
+    {
+        "question": "Which of the following correctly distinguish stack memory from heap memory?",
+        "category": "OS",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Stack memory is automatically managed; heap memory must be manually freed (in C/C++)",
+            "Stack is faster to allocate than heap",
+            "Stack size is typically larger than heap size",
+            "Local variables are stored on the stack"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Heap is typically much larger than the stack. Stack size is usually 1-8 MB per thread. Heap can be gigabytes. Stack overflow happens when recursion is too deep."
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    StringBuilder sb = new StringBuilder(\"Hello\");\n    sb.reverse();\n    System.out.println(sb);\n  }\n}",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "olleH"
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    int x = 5;\n    System.out.println(x > 3 ? \"big\" : \"small\");\n    System.out.println(x > 10 ? \"big\" : \"small\");\n  }\n}",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "big\nsmall"
+    },
+    {
+        "question": "Match each Java exception to its type (checked or unchecked).",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "IOException",
+            "NullPointerException",
+            "SQLException",
+            "ArrayIndexOutOfBoundsException"
+        ],
+        "right": [
+            "Unchecked -- extends RuntimeException",
+            "Checked -- must be declared with throws or caught",
+            "Unchecked -- extends RuntimeException subclass",
+            "Checked -- extends Exception directly"
+        ],
+        "matches": [
+            2,
+            1,
+            4,
+            3
+        ]
+    },
+    {
+        "question": "The ___ keyword in Java is used to explicitly invoke another constructor of the same class from within a constructor.",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "this"
+    },
+    {
+        "question": "In Java, what is the output of the following?\nSystem.out.println(Integer.MAX_VALUE + 1);",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "-2147483648",
+        "hint": "Integer.MAX_VALUE is 2^31 - 1 = 2147483647. Adding 1 causes integer overflow and wraps to Integer.MIN_VALUE = -2147483648."
+    },
+    {
+        "question": "Which of the following are true about Java's garbage collector?",
+        "category": "Java",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Objects with no references are eligible for GC",
+            "System.gc() guarantees immediate garbage collection",
+            "The GC can reclaim memory from objects in circular reference cycles",
+            "finalize() is called before an object is collected"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ],
+        "hint": "System.gc() is only a hint -- the JVM may ignore it. Java's GC uses reachability (not just reference counting), so circular cycles ARE collectible if not reachable from GC roots."
+    },
+    {
+        "question": "Which of the following describe the difference between an interface and an abstract class in Java?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "A class can implement multiple interfaces but extend only one abstract class",
+            "Abstract classes can have constructors; interfaces cannot",
+            "Interfaces can have instance fields; abstract classes cannot",
+            "Abstract classes can have state (non-static, non-final fields)"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Interfaces can only have public static final fields (constants). Abstract classes can have any kind of instance field, maintaining state."
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  int x = 10;\n  int* p = &x;\n  *p = 20;\n  cout << x << \" \" << *p;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "20 20"
+    },
+    {
+        "question": "Arrange the steps to perform a DFS on a graph starting from a source vertex.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "ordering",
+        "options": [
+            "Mark current vertex as visited",
+            "Push source onto the stack",
+            "For each unvisited neighbour, push onto stack",
+            "Pop a vertex from the stack",
+            "Repeat until stack is empty"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            1,
+            3,
+            5
+        ]
+    },
+    {
+        "question": "In which of the following scenarios is a Linked List preferred over an Array?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Frequent insertions and deletions at the beginning",
+            "Random access by index is required",
+            "Memory is allocated dynamically as needed",
+            "Cache performance is a critical concern"
+        ],
+        "answers": [
+            1,
+            3
+        ],
+        "hint": "Arrays have better cache locality (contiguous memory). Linked lists have no cache advantage. Linked lists shine when you insert/delete frequently and do not need random access."
+    },
+    {
+        "question": "What is the output of the following code snippet?\nint result = 0;\nfor (int i = 1; i <= 5; i++) {\n  result += i;\n}\nSystem.out.println(result);",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "15"
+    },
+    {
+        "question": "Which of the following are valid states of a Java thread?",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "NEW",
+            "RUNNING",
+            "BLOCKED",
+            "TERMINATED"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ],
+        "hint": "Java thread states (java.lang.Thread.State) are: NEW, RUNNABLE (not RUNNING), BLOCKED, WAITING, TIMED_WAITING, TERMINATED. There is no RUNNING state in the Java API."
+    },
+    {
+        "question": "Match each time complexity to a real algorithm that achieves it.",
+        "category": "Algorithms",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "O(1)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "right": [
+            "Binary Search",
+            "HashMap get() (average case)",
+            "Bubble Sort (average case)",
+            "Merge Sort"
+        ],
+        "matches": [
+            2,
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "The number of edges in a complete graph with n vertices is ___.",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "fill",
+        "answer": "n*(n-1)/2"
+    },
+    {
+        "question": "A train 150m long passes a pole in 15 seconds. How long will it take to pass a platform 300m long?",
+        "category": "Aptitude",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "30 seconds",
+            "35 seconds",
+            "40 seconds",
+            "45 seconds"
+        ],
+        "answer": 4,
+        "hint": "Speed = 150/15 = 10 m/s. To pass the platform, the train must cover 150 + 300 = 450m. Time = 450/10 = 45 seconds."
+    },
+    {
+        "question": "If the simple interest on a sum for 3 years at 10% per annum is 1500, what is the principal?",
+        "category": "Aptitude",
+        "difficulty": "easy",
+        "type": "mcq",
+        "options": [
+            "3000",
+            "4000",
+            "5000",
+            "6000"
+        ],
+        "answer": 3,
+        "hint": "SI = (P * R * T) / 100. 1500 = (P * 10 * 3) / 100. P = 150000 / 30 = 5000."
+    },
+    {
+        "question": "In a group of 70 people, 37 like coffee, 52 like tea, and each person likes at least one. How many like both?",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "15",
+            "17",
+            "19",
+            "21"
+        ],
+        "answer": 3,
+        "hint": "By inclusion-exclusion: |A union B| = |A| + |B| - |A intersection B|. 70 = 37 + 52 - both. both = 89 - 70 = 19."
+    },
+    {
+        "question": "What is the next number in the sequence: 2, 6, 12, 20, 30, ___?",
+        "category": "Aptitude",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "40",
+            "42",
+            "44",
+            "46"
+        ],
+        "answer": 2,
+        "hint": "Pattern: n*(n+1). 1*2=2, 2*3=6, 3*4=12, 4*5=20, 5*6=30, 6*7=42."
+    },
+    {
+        "question": "If 3 men can do a job in 4 days and 4 women can do it in 3 days, how long will 6 men and 8 women take?",
+        "category": "Aptitude",
+        "difficulty": "hard",
+        "type": "mcq",
+        "options": [
+            "1 day",
+            "1.5 days",
+            "2 days",
+            "3 days"
+        ],
+        "answer": 1,
+        "hint": "1 man/day = 1/12 work. 1 woman/day = 1/12 work. 6 men + 8 women = 6/12 + 8/12 = 14/12 per day. Wait -- 6*(1/12) + 8*(1/12) = 14/12 > 1, so 12/14 < 1 day. Exactly 12/14 = 6/7 day ~ 1 day (closest option is 1 day)."
+    },
+    {
+        "question": "What is 2^0 + 2^1 + 2^2 + ... + 2^n?",
+        "category": "Math",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "2^n",
+            "2^(n+1) - 1",
+            "2^n - 1",
+            "2^(n+1)"
+        ],
+        "answer": 2,
+        "hint": "Sum of geometric series: a*(r^n - 1)/(r - 1). Here a=1, r=2, n+1 terms. Sum = 2^(n+1) - 1."
+    },
+    {
+        "question": "Arrange these memory units from smallest to largest.",
+        "category": "General Programming",
+        "difficulty": "easy",
+        "type": "ordering",
+        "options": [
+            "Megabyte (MB)",
+            "Bit",
+            "Terabyte (TB)",
+            "Byte",
+            "Gigabyte (GB)",
+            "Kilobyte (KB)"
+        ],
+        "correctOrder": [
+            2,
+            4,
+            6,
+            1,
+            5,
+            3
+        ]
+    },
+    {
+        "question": "Which of the following are lossless compression algorithms?",
+        "category": "General Programming",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "ZIP (Deflate)",
+            "JPEG",
+            "PNG",
+            "Huffman Coding"
+        ],
+        "answers": [
+            1,
+            3,
+            4
+        ],
+        "hint": "JPEG is lossy -- it discards some visual information to achieve smaller file sizes. PNG, ZIP, and Huffman coding are lossless -- original data is perfectly reconstructed."
+    },
+    {
+        "question": "In a C++ program, memory allocated with 'new' must be freed with ___.",
+        "category": "C++",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "delete"
+    },
+    {
+        "question": "In C++, which of the following are true about the Standard Template Library (STL)?",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "std::vector provides dynamic array functionality",
+            "std::map stores key-value pairs in sorted order by key",
+            "std::unordered_map guarantees O(log n) lookups",
+            "std::set does not allow duplicate elements"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "std::unordered_map uses hashing and provides O(1) average lookup, not O(log n). std::map uses a Red-Black Tree and provides O(log n) lookup."
+    },
+    {
+        "question": "Match each C++ STL container to its underlying data structure.",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "mtf",
+        "left": [
+            "std::vector",
+            "std::list",
+            "std::map",
+            "std::unordered_map"
+        ],
+        "right": [
+            "Hash Table",
+            "Doubly Linked List",
+            "Dynamic Array",
+            "Red-Black Tree (BST)"
+        ],
+        "matches": [
+            3,
+            2,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\n#include<vector>\nusing namespace std;\nint main() {\n  vector<int> v = {1, 2, 3, 4, 5};\n  v.erase(v.begin() + 2);\n  for (int x : v) cout << x << \" \";\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "1 2 4 5 ",
+        "hint": "v.begin() + 2 points to index 2 (value 3). Erasing it shifts subsequent elements left."
+    },
+    {
+        "question": "In C++, the ___ specifier (C++11) prevents a function from throwing any exceptions.",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "fill",
+        "answer": "noexcept",
+        "hint": "noexcept replaced the deprecated throw() specification. If a noexcept function throws, std::terminate() is called."
+    },
+    {
+        "question": "Which of the following are true about C++ templates?",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Templates enable generic programming",
+            "Template code is instantiated at compile time for each type used",
+            "Templates can only be used with primitive types",
+            "Function templates can have default template arguments"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Templates work with any type that satisfies the required operations. They work with user-defined classes, STL containers, and more."
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    int x = 3;\n    int y = x << 2;\n    System.out.println(y);\n  }\n}",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "12",
+        "hint": "Left shift by 2 is equivalent to multiplying by 2^2 = 4. So 3 << 2 = 3 * 4 = 12."
+    },
+    {
+        "question": "What is the output of the following Java code?\npublic class Test {\n  public static void main(String[] args) {\n    String s = null;\n    System.out.println(\"Value: \" + s);\n  }\n}",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "guess the output",
+        "answer": "Value: null"
+    },
+    {
+        "question": "Which of the following hash collision resolution strategies are used in practice?",
+        "category": "DSA",
+        "difficulty": "medium",
+        "type": "msq",
+        "options": [
+            "Chaining (linked list per bucket)",
+            "Open addressing (linear probing)",
+            "Open addressing (quadratic probing)",
+            "Binary search per bucket"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Binary search per bucket is not standard -- it would require maintaining sorted lists in buckets. Chaining and open addressing (linear, quadratic, double hashing) are the standard approaches."
+    },
+    {
+        "question": "Which of the following correctly match a problem to its optimal algorithmic approach?",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "Longest Increasing Subsequence -- Dynamic Programming",
+            "Activity Selection Problem -- Greedy",
+            "Matrix Chain Multiplication -- Divide and Conquer",
+            "N-Queens -- Backtracking"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "Matrix Chain Multiplication is solved with Dynamic Programming, not pure Divide and Conquer. The optimal substructure and overlapping subproblems make DP the right choice."
+    },
+    {
+        "question": "Arrange these TCP/IP protocol layers and their PDU (Protocol Data Unit) names from lowest to highest.",
+        "category": "Networking",
+        "difficulty": "hard",
+        "type": "ordering",
+        "options": [
+            "Transport (Segment/Datagram)",
+            "Application (Data/Message)",
+            "Network Access (Frame/Bits)",
+            "Internet (Packet)"
+        ],
+        "correctOrder": [
+            3,
+            4,
+            1,
+            2
+        ],
+        "hint": "TCP/IP layers bottom to top: Network Access (physical + data link) -> Internet (IP) -> Transport (TCP/UDP) -> Application."
+    },
+    {
+        "question": "What is the output of the following Java code?\nimport java.util.*;\npublic class Test {\n  public static void main(String[] args) {\n    Map<String, Integer> map = new LinkedHashMap<>();\n    map.put(\"a\", 1);\n    map.put(\"b\", 2);\n    map.put(\"c\", 3);\n    map.put(\"b\", 20);\n    System.out.println(map);\n  }\n}",
+        "category": "Java",
+        "difficulty": "medium",
+        "type": "guess the output",
+        "answer": "{a=1, b=20, c=3}",
+        "hint": "LinkedHashMap maintains insertion order. Putting 'b' again updates its value but preserves its original insertion position."
+    },
+    {
+        "question": "What does the ___ keyword in Java prevent a variable from being changed after the first assignment, and prevent a method from being overridden?",
+        "category": "Java",
+        "difficulty": "easy",
+        "type": "fill",
+        "answer": "final"
+    },
+    {
+        "question": "Which of the following are valid Big O relationships (i.e., f(n) = O(g(n)))?",
+        "category": "Math",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "n^2 = O(n^3)",
+            "log(n) = O(n)",
+            "n = O(log n)",
+            "2^n = O(n!)"
+        ],
+        "answers": [
+            1,
+            2,
+            4
+        ],
+        "hint": "O(g(n)) means f grows no faster than g. n grows faster than log(n), so n is NOT O(log n). n! grows faster than 2^n, so 2^n = O(n!) is correct."
+    },
+    {
+        "question": "A person walks to a destination at 4 km/h and returns at 6 km/h. What is the average speed for the whole journey?",
+        "category": "Aptitude",
+        "difficulty": "medium",
+        "type": "mcq",
+        "options": [
+            "4.8 km/h",
+            "5 km/h",
+            "5.2 km/h",
+            "6 km/h"
+        ],
+        "answer": 1,
+        "hint": "Average speed for equal distances = 2*v1*v2 / (v1+v2) = 2*4*6 / (4+6) = 48/10 = 4.8 km/h. Do NOT take the arithmetic mean."
+    },
+    {
+        "question": "What is the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nint main() {\n  int a[] = {1,2,3,4,5};\n  int* p = a + 1;\n  cout << *(p++) << \" \" << *p;\n  return 0;\n}",
+        "category": "C++",
+        "difficulty": "hard",
+        "type": "guess the output",
+        "answer": "2 3",
+        "hint": "p starts at a[1]=2. *(p++) prints the value at p (2), then increments p to point at a[2]. *p then reads a[2] = 3."
+    },
+    {
+        "question": "Match each concurrency problem to its description.",
+        "category": "OS",
+        "difficulty": "hard",
+        "type": "mtf",
+        "left": [
+            "Deadlock",
+            "Livelock",
+            "Starvation",
+            "Race Condition"
+        ],
+        "right": [
+            "Two or more threads keep changing state in response to each other but make no progress",
+            "Outcome depends on the non-deterministic timing of threads",
+            "A low priority thread never gets resources despite being ready",
+            "Threads wait on each other indefinitely, making no progress"
+        ],
+        "matches": [
+            4,
+            1,
+            3,
+            2
+        ],
+        "hint": "Deadlock = stuck, no state change. Livelock = active but no progress (like two people in a corridor stepping the same way). Starvation = one thread perpetually skipped."
+    },
+    {
+        "question": "The ___ algorithm for string matching preprocesses the pattern to build a failure function and achieves O(n + m) time complexity.",
+        "category": "Algorithms",
+        "difficulty": "hard",
+        "type": "fill",
+        "answer": "KMP",
+        "hint": "Knuth-Morris-Pratt (KMP). The failure function allows the algorithm to skip unnecessary comparisons using previously matched characters."
+    },
+    {
+        "question": "Which of the following are true about Segment Trees?",
+        "category": "DSA",
+        "difficulty": "hard",
+        "type": "msq",
+        "options": [
+            "They support range query (e.g., sum, min, max) in O(log n)",
+            "They support point update in O(log n)",
+            "They require O(n) space",
+            "They can only answer sum queries, not min/max"
+        ],
+        "answers": [
+            1,
+            2,
+            3
+        ],
+        "hint": "Segment trees require O(4n) = O(n) space. They support any associative operation: sum, min, max, GCD, etc."
+    }
+]

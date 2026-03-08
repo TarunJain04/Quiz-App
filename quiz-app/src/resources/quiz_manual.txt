@@ -1,0 +1,168 @@
+================================================================================
+                         QUIZ SYSTEM CONTRACT
+                         quiz_manual.txt
+================================================================================
+
+This file defines the complete contract for generating quiz questions for the
+Java-based quiz system. Show this file to Claude before asking for questions.
+
+================================================================================
+1. JAVA CLASS STRUCTURE & FIELD NAMES (EXACT)
+================================================================================
+
+All questions share these base fields:
+    "question"   : String
+    "category"   : String
+    "difficulty" : "easy" | "medium" | "hard"
+    "type"       : one of the types listed in Section 2
+
+-- MCQ (class MCQ) --
+    "type"    : "mcq"
+    "options" : List<String>   (array of strings, 2 to 6 options, reasonable count)
+    "answer"  : int            (1-based index of correct option)
+
+-- TFQ (class MCQ, same deserialization as MCQ) --
+    "type"    : "tfq"
+    "options" : [true, false]  (boolean values, NOT strings)
+    "answer"  : int            (1 = true, 2 = false)
+
+-- OPEN ENDED (class OpenEnded) --
+    "type"   : "open_ended"
+    "answer" : String
+
+-- FILL IN THE BLANK (class OpenEnded) --
+    "type"   : "fill"
+    "answer" : String
+
+-- GUESS THE OUTPUT (class OpenEnded) --
+    "type"   : "guess the output"
+    "answer" : String          (MUST be single-line only -- no multi-line answers)
+
+-- MSQ (class MSQ) --
+    "type"    : "msq"
+    "options" : List<String>
+    "answers" : Set<Integer>   (NOTE: plural "answers", 1-based indexes, array in JSON)
+
+-- MTF (class MTF) --
+    "type"    : "mtf"
+    "left"    : List<String>   (items to match FROM)
+    "right"   : List<String>   (items to match TO)
+    "matches" : List<Integer>  (1-based: matches[i] = index in right that left[i] maps to)
+
+    CONSTRAINTS:
+    - left, right, matches must ALL be the same length
+    - All values in "right" must be unique (no duplicates)
+    - All values in "matches" must be unique (each right item used exactly once)
+    - No right item should be a plausible match for more than one left item
+
+-- ORDERING (class Ordering) --
+    "type"         : "ordering"
+    "options"      : List<String>   (items shown to user in shuffled order)
+    "correctOrder" : List<Integer>  (1-based indexes giving the correct sequence)
+
+    CONSTRAINT:
+    - options and correctOrder must be the same length
+
+-- HINT (optional field, any type) --
+    "hint" : String
+    - REQUIRED for all hard difficulty questions
+    - Must give a CONCEPTUAL CLUE only
+    - Must NOT reveal the answer, numbers, or the answer itself
+    - Points the student toward the concept involved, nothing more
+
+================================================================================
+2. QUESTION TYPE SUMMARY
+================================================================================
+
+    Type               | Key fields
+    -------------------|--------------------------------------------------
+    mcq                | options (String[]), answer (int)
+    tfq                | options ([true,false]), answer (int)
+    open_ended         | answer (String)
+    fill               | answer (String)
+    guess the output   | answer (String) -- SINGLE LINE ONLY
+    msq                | options (String[]), answers (int[])
+    mtf                | left, right, matches
+    ordering           | options, correctOrder
+
+================================================================================
+3. DIFFICULTY STANDARDS
+================================================================================
+
+    easy   : A 2nd year CS student should answer in ~10 seconds.
+             Not trivial recall (no "what does OOP stand for", no LCM of 12 and 18).
+             Requires basic understanding, not just memory.
+
+    medium : Requires genuine thought. Involves traps, edge cases, or combining
+             two concepts. A student who studied the topic should get it in ~30s.
+
+    hard   : Genuinely hard. Should make a strong student pause.
+             MUST have a hint (conceptual clue only, no answer giveaway).
+             Examples: undefined behavior, JVM internals, concurrency subtleties,
+             language-specific traps, non-obvious outputs.
+
+    Distribution target: ~33% each, or as instructed per batch.
+
+================================================================================
+4. CONTENT RULES
+================================================================================
+
+-- Languages / Domains in scope --
+    Java, Python, JavaScript, C, SQL (query output), Bash/Shell,
+    CSS, HTML, DSA, Algorithms, OS, Networking, Databases,
+    OOP, Design Patterns, Math (aptitude level), General Programming
+
+-- Math / Aptitude --
+    No elementary arithmetic (no LCM of small numbers, no 1st-grade sums).
+    Aptitude means: percentages, time-work, probability, combinatorics,
+    number theory basics, sequences -- at competitive exam level.
+
+-- NO trivial questions --
+    Banned: "what does OOP/SQL/API stand for", "what is a variable",
+    linear vs non-linear (repeated), LCM/GCD of tiny numbers.
+
+-- Guess the output --
+    Must have a genuine trap or non-obvious behavior.
+    Answer MUST be a single line (no newlines in "answer" field).
+    Good traps: operator precedence, scoping, mutability, type coercion,
+    pass-by-value vs reference, short-circuit evaluation, macro expansion,
+    integer overflow, hoisting, closures, default mutable arguments.
+
+-- MSQ --
+    All correct options must be unambiguously correct.
+    Wrong options must be clearly wrong (not debatable).
+
+-- MTF --
+    Right side items must be distinct enough that no two left items
+    could reasonably match the same right item.
+
+-- open_ended / fill / guess the output answers --
+    Must be 100% objective -- only one possible correct answer.
+    No definitions, no subjective descriptions.
+    Acceptable: exact keywords, acronym expansions, exact Big-O values,
+    exact numbers, exact algorithm names, single-word answers.
+
+================================================================================
+5. JSON FORMAT RULES
+================================================================================
+
+    - Pure ASCII only (no Unicode, no special characters beyond U+007F)
+    - No Unicode superscripts (use n^2 not n2, 2^31 not 2^31 with superscript)
+    - No em-dashes, smart quotes, or any non-ASCII punctuation
+    - Use -- for em-dash, straight " for quotes
+    - All answers in "guess the output" must be single-line (no \n in value)
+    - JSON must be a valid array of question objects
+    - No "id" field required (Quiz loads by index)
+
+================================================================================
+6. HINT RULES
+================================================================================
+
+    - Required for ALL hard questions
+    - Optional for medium/easy (use sparingly)
+    - Must give a CONCEPTUAL CLUE only:
+        Good: "Think about when Python evaluates default argument values."
+        Good: "Consider what happens to an array when passed to a function in C."
+        Bad:  "Integer.MAX_VALUE is 2^31 - 1 = 2147483647. Adding 1 wraps to -2147483648."
+              (This gives the answer directly -- NEVER do this)
+    - The hint should point to the relevant concept or mechanism, not the answer

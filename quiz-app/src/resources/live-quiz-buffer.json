@@ -1,0 +1,74 @@
+{
+  "response_code" : 0,
+  "results" : [ {
+    "type" : "multiple",
+    "difficulty" : "hard",
+    "category" : "Science: Computers",
+    "question" : "The acronym \"RIP\" stands for which of these?",
+    "correct_answer" : "Routing Information Protocol",
+    "incorrect_answers" : [ "Runtime Instance Processes", "Regular Interval Processes", "Routine Inspection Protocol" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "easy",
+    "category" : "Science: Computers",
+    "question" : "What is the most preferred image format used for logos in the Wikimedia database?",
+    "correct_answer" : ".svg",
+    "incorrect_answers" : [ ".png", ".jpeg", ".gif" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "hard",
+    "category" : "Science: Computers",
+    "question" : "How many Hz does the video standard PAL support?",
+    "correct_answer" : "50",
+    "incorrect_answers" : [ "59", "60", "25" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "easy",
+    "category" : "Science: Computers",
+    "question" : "In web design, what does CSS stand for?",
+    "correct_answer" : "Cascading Style Sheet",
+    "incorrect_answers" : [ "Counter Strike: Source", "Corrective Style Sheet", "Computer Style Sheet" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "easy",
+    "category" : "Science: Computers",
+    "question" : "Which computer language would you associate Django framework with?",
+    "correct_answer" : "Python",
+    "incorrect_answers" : [ "C#", "C++", "Java" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "medium",
+    "category" : "Science: Computers",
+    "question" : "When did the online streaming service \"Mixer\" launch?",
+    "correct_answer" : "2016",
+    "incorrect_answers" : [ "2013", "2009", "2011" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "medium",
+    "category" : "Science: Computers",
+    "question" : "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+    "correct_answer" : "Heat Sink",
+    "incorrect_answers" : [ "CPU Vent", "Temperature Decipator", "Heat Vent" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "medium",
+    "category" : "Science: Computers",
+    "question" : "Nvidia's headquarters are based in which Silicon Valley city?",
+    "correct_answer" : "Santa Clara",
+    "incorrect_answers" : [ "Palo Alto", "Cupertino", "Mountain View" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "easy",
+    "category" : "Science: Computers",
+    "question" : "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+    "correct_answer" : "Apple",
+    "incorrect_answers" : [ "Microsoft", "Atari", "Commodore" ]
+  }, {
+    "type" : "multiple",
+    "difficulty" : "medium",
+    "category" : "Science: Computers",
+    "question" : "Whistler was the codename of this Microsoft Operating System.",
+    "correct_answer" : "Windows XP",
+    "incorrect_answers" : [ "Windows 2000", "Windows 7", "Windows 95" ]
+  } ]
+}

@@ -1,0 +1,524 @@
+[
+  {
+    "question": "A bag contains 5 red, 4 blue, and 3 green balls. Two balls are drawn without replacement. What is the probability that both balls are of different colors?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "47/66",
+      "19/66",
+      "5/11",
+      "4/9",
+      "11/22"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In a class of 30 students, 18 play cricket, 15 play football, and 10 play both. How many students play neither?",
+    "category": "Set Theory",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "5",
+      "7",
+      "3",
+      "8"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of the following Python code?\n\ndef f(x, data=[]):\n    data.append(x)\n    return len(data)\n\nprint(f(1), f(2), f(3))",
+    "category": "Python",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "1 2 3",
+    "hint": "Think about when Python evaluates default argument values -- and whether that happens once or every call."
+  },
+  {
+    "question": "A fair die is rolled twice. Given that the sum is 8, what is the probability that one of the rolls showed a 3?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "1/5",
+      "2/5",
+      "1/3",
+      "3/5"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of the following Java code?\n\nint x = 5;\nSystem.out.println(x++ + ++x);",
+    "category": "Java",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "12"
+  },
+  {
+    "question": "How many ways can the letters of the word STATISTICS be arranged?",
+    "category": "Combinatorics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "50400",
+      "3628800",
+      "75600",
+      "25200",
+      "100800"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    printf(\"%d\", sizeof('A'));\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "4",
+    "hint": "In C (not C++), a character literal has a specific type that may not be what you expect."
+  },
+  {
+    "question": "A box has 10 bulbs of which 3 are defective. If 4 bulbs are chosen at random, what is the probability that exactly 2 are defective?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "3/10",
+      "7/20",
+      "1/2",
+      "3/14"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of the following JavaScript code?\n\nconsole.log(0.1 + 0.2 === 0.3);",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "false"
+  },
+  {
+    "question": "Which of the following are valid properties of a probability distribution function?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "The sum of all probabilities equals 1",
+      "Individual probabilities can be negative",
+      "P(A union B) = P(A) + P(B) for mutually exclusive events",
+      "P(A) can exceed 1 for continuous distributions",
+      "P(complement of A) = 1 - P(A)"
+    ],
+    "answers": [1, 3, 5]
+  },
+  {
+    "question": "In how many ways can 6 people be seated at a circular table such that two specific people are never adjacent?",
+    "category": "Combinatorics",
+    "difficulty": "hard",
+    "type": "mcq",
+    "options": [
+      "48",
+      "72",
+      "36",
+      "96",
+      "60"
+    ],
+    "answer": 2,
+    "hint": "Use the complement -- count total circular arrangements, then subtract those where the two specific people ARE adjacent."
+  },
+  {
+    "question": "What is the output of the following Python code?\n\nx = [1, 2, 3]\ny = x\ny += [4]\nprint(x)",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "question": "A Markov chain has the transition matrix P = [[0.7, 0.3], [0.4, 0.6]]. Starting from state 1, what is the probability of being in state 2 after exactly 2 steps?",
+    "category": "Probability",
+    "difficulty": "hard",
+    "type": "mcq",
+    "options": [
+      "0.33",
+      "0.39",
+      "0.42",
+      "0.36",
+      "0.30"
+    ],
+    "answer": 2,
+    "hint": "Multiply the transition matrix by itself and read the appropriate entry for the starting state."
+  },
+  {
+    "question": "What is the output of the following Java code?\n\nString s1 = new String(\"hello\");\nString s2 = new String(\"hello\");\nSystem.out.println(s1 == s2);",
+    "category": "Java",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "false"
+  },
+  {
+    "question": "For a standard normal distribution N(0,1), which of the following statements are correct?",
+    "category": "Statistics",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "Mean = Median = Mode = 0",
+      "The distribution is symmetric about x = 1",
+      "Approximately 95% of data lies within 2 standard deviations of the mean",
+      "The total area under the curve is 1",
+      "Variance equals the standard deviation"
+    ],
+    "answers": [1, 3, 4]
+  },
+  {
+    "question": "Match each probability concept with its correct definition.",
+    "category": "Probability",
+    "difficulty": "easy",
+    "type": "mtf",
+    "left": [
+      "Mutually exclusive events",
+      "Independent events",
+      "Conditional probability",
+      "Complementary events"
+    ],
+    "right": [
+      "P(A|B) = P(A and B) / P(B)",
+      "Events that cannot occur simultaneously",
+      "P(A and B) = P(A) * P(B)",
+      "Events whose probabilities sum to 1"
+    ],
+    "matches": [2, 3, 1, 4]
+  },
+  {
+    "question": "Arrange the following sorting algorithms in order of their best-case time complexity, from lowest to highest.",
+    "category": "Algorithms",
+    "difficulty": "medium",
+    "type": "ordering",
+    "options": [
+      "Merge Sort -- O(n log n)",
+      "Insertion Sort -- O(n)",
+      "Selection Sort -- O(n^2)",
+      "Tim Sort -- O(n)"
+    ],
+    "correctOrder": [2, 4, 1, 3]
+  },
+  {
+    "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int a = 2147483647;\n    printf(\"%d\", a + 1);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "-2147483648",
+    "hint": "Consider what happens at the upper boundary of a 32-bit signed integer and how arithmetic wraps."
+  },
+  {
+    "question": "In a group of 100 people, 70 drink tea, 50 drink coffee, and 30 drink both. If a person is selected at random and found to drink coffee, what is the probability they also drink tea?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "3/5",
+      "3/7",
+      "7/10",
+      "2/5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "The mean of 20 numbers is 45. If 3 numbers with values 40, 50, and 55 are removed, what is the mean of the remaining numbers?",
+    "category": "Statistics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "44.12",
+      "44.76",
+      "43.88",
+      "45.59"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of the following JavaScript code?\n\nvar x = 1;\nfunction foo() {\n    console.log(x);\n    var x = 2;\n}\nfoo();",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "undefined",
+    "hint": "Consider how variable declarations are handled before execution begins in JavaScript."
+  },
+  {
+    "question": "A discrete random variable X has the following distribution: P(X=1) = 0.2, P(X=2) = 0.3, P(X=3) = 0.4, P(X=4) = 0.1. What is E[X^2]?",
+    "category": "Statistics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "6.1",
+      "5.7",
+      "4.9",
+      "7.2",
+      "5.3"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How many integers from 1 to 1000 are divisible by at least one of 3, 5, or 7?",
+    "category": "Discrete Mathematics",
+    "difficulty": "hard",
+    "type": "mcq",
+    "options": [
+      "543",
+      "556",
+      "618",
+      "571",
+      "591"
+    ],
+    "answer": 4,
+    "hint": "Apply the inclusion-exclusion principle across all three divisors and their pairwise and triple intersections."
+  },
+  {
+    "question": "What is the output of the following Python code?\n\nprint(type(1/2))",
+    "category": "Python",
+    "difficulty": "easy",
+    "type": "guess the output",
+    "answer": "<class 'float'>"
+  },
+  {
+    "question": "Match each statistical measure to what it best describes.",
+    "category": "Statistics",
+    "difficulty": "medium",
+    "type": "mtf",
+    "left": [
+      "Mean",
+      "Median",
+      "Variance",
+      "Standard Deviation",
+      "Mode"
+    ],
+    "right": [
+      "Spread measured in original units",
+      "Middle value when data is sorted",
+      "Most frequently occurring value",
+      "Average of squared deviations from mean",
+      "Arithmetic average of all values"
+    ],
+    "matches": [5, 2, 4, 1, 3]
+  },
+  {
+    "question": "The number of relations on a set with n elements is ___.",
+    "category": "Discrete Mathematics",
+    "difficulty": "medium",
+    "type": "fill",
+    "answer": "2^(n^2)"
+  },
+  {
+    "question": "In Bayes' theorem, P(A|B) = P(B|A) * P(A) / P(B). Which of the following correctly describe its components?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "P(A) is the prior probability of A",
+      "P(B|A) is called the likelihood",
+      "P(B) is the posterior probability",
+      "P(A|B) is the posterior probability",
+      "P(A) can be derived solely from P(A|B)"
+    ],
+    "answers": [1, 2, 4]
+  },
+  {
+    "question": "Arrange the following Big-O complexities in increasing order (slowest growth last).",
+    "category": "Algorithms",
+    "difficulty": "easy",
+    "type": "ordering",
+    "options": [
+      "O(n!)",
+      "O(log n)",
+      "O(n log n)",
+      "O(2^n)",
+      "O(n^2)"
+    ],
+    "correctOrder": [2, 3, 5, 4, 1]
+  },
+  {
+    "question": "What is the output of the following Java code?\n\nList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));\nfor (int x : list) {\n    if (x == 2) list.remove(Integer.valueOf(x));\n}\nSystem.out.println(list);",
+    "category": "Java",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "[1, 3]",
+    "hint": "Consider how the enhanced for-loop interacts with structural modification of a collection -- and whether this specific case throws or silently skips."
+  },
+  {
+    "question": "Two events A and B are such that P(A) = 0.6, P(B) = 0.5, and P(A|B) = 0.7. Are A and B independent?",
+    "category": "Probability",
+    "difficulty": "medium",
+    "type": "tfq",
+    "options": [true, false],
+    "answer": 2
+  },
+  {
+    "question": "A function f: A -> B is bijective if and only if it is:",
+    "category": "Discrete Mathematics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "Both injective and surjective",
+      "Only injective",
+      "Only surjective",
+      "Neither injective nor surjective"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of the following Python code?\n\nprint(bool([] or {} or 0 or 'hello'))",
+    "category": "Python",
+    "difficulty": "medium",
+    "type": "guess the output",
+    "answer": "True"
+  },
+  {
+    "question": "The expected number of coin flips needed to get the first head (p = 0.5) follows a geometric distribution. What is the variance?",
+    "category": "Statistics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "2",
+      "4",
+      "1",
+      "0.5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In a binomial distribution with n=10 and p=0.4, what is P(X <= 1)?",
+    "category": "Statistics",
+    "difficulty": "hard",
+    "type": "mcq",
+    "options": [
+      "0.0467",
+      "0.0464",
+      "0.0471",
+      "0.0459",
+      "0.0480"
+    ],
+    "answer": 1,
+    "hint": "Compute P(X=0) + P(X=1) using the binomial formula and expand carefully with (0.4)^k * (0.6)^(10-k)."
+  },
+  {
+    "question": "Which of the following are properties of a valid equivalence relation?",
+    "category": "Discrete Mathematics",
+    "difficulty": "medium",
+    "type": "msq",
+    "options": [
+      "Reflexive",
+      "Irreflexive",
+      "Symmetric",
+      "Antisymmetric",
+      "Transitive"
+    ],
+    "answers": [1, 3, 5]
+  },
+  {
+    "question": "A train travels from A to B at 60 km/h and returns at 40 km/h. What is the average speed for the entire trip?",
+    "category": "Aptitude",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "48 km/h",
+      "50 km/h",
+      "46 km/h",
+      "52 km/h"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Match each logic gate to its boolean expression (A and B are inputs, Y is output).",
+    "category": "Discrete Mathematics",
+    "difficulty": "easy",
+    "type": "mtf",
+    "left": [
+      "AND gate",
+      "OR gate",
+      "XOR gate",
+      "NAND gate"
+    ],
+    "right": [
+      "Y = A * B",
+      "Y = NOT(A * B)",
+      "Y = A + B",
+      "Y = A XOR B"
+    ],
+    "matches": [1, 3, 4, 2]
+  },
+  {
+    "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int i = 5;\n    printf(\"%d %d\", i++, i++);\n    return 0;\n}",
+    "category": "C",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "5 6",
+    "hint": "Argument evaluation order in C is implementation-defined -- but consider what most compilers do with post-increment in this context and what the standard says about it."
+  },
+  {
+    "question": "Work W can be done by A in 12 days and by B in 18 days. They work together for 4 days, then A leaves. How many more days does B need to finish the work?",
+    "category": "Aptitude",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "8.67 days",
+      "7.33 days",
+      "9 days",
+      "10 days",
+      "6 days"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The chromatic number of a complete graph K_n is ___.",
+    "category": "Discrete Mathematics",
+    "difficulty": "medium",
+    "type": "fill",
+    "answer": "n"
+  },
+  {
+    "question": "What does the central limit theorem state about the sampling distribution of the sample mean?",
+    "category": "Statistics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "options": [
+      "It approaches a normal distribution as sample size increases, regardless of population distribution",
+      "It is always normal for any sample size",
+      "It is normal only when the population is normal",
+      "It approaches uniform distribution as sample size increases"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of the following Python code?\n\nx = 10\ndef foo():\n    x += 5\n    return x\nprint(foo())",
+    "category": "Python",
+    "difficulty": "hard",
+    "type": "guess the output",
+    "answer": "UnboundLocalError: local variable 'x' referenced before assignment",
+    "hint": "Think about how Python determines at compile time whether a variable inside a function is local or global."
+  },
+  {
+    "question": "Arrange the following steps of hypothesis testing in the correct order.",
+    "category": "Statistics",
+    "difficulty": "medium",
+    "type": "ordering",
+    "options": [
+      "Compute the test statistic",
+      "State null and alternative hypotheses",
+      "Make a decision based on p-value",
+      "Set significance level alpha",
+      "Collect sample data"
+    ],
+    "correctOrder": [2, 4, 5, 1, 3]
+  },
+  {
+    "question": "A person invests Rs 10,000 at 10% per annum compounded annually for 2 years, and another Rs 10,000 at 10% simple interest for 2 years. What is the difference in interest earned?",
+    "category": "Aptitude",
+    "difficulty": "easy",
+    "type": "mcq",
+    "options": [
+      "Rs 100",
+      "Rs 200",
+      "Rs 150",
+      "Rs 50"
+    ],
+    "answer": 1
+  }
+]
